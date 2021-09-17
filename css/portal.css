@@ -41,7 +41,7 @@ ul {
 }
 
 footer {
-    background-color: white;
+    background-color: rgb(9, 108, 145);
     line-height: 2em;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 15px;
@@ -51,7 +51,7 @@ footer {
 p {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    color: wheat;
+    color: white;
 }
 
 #date {
