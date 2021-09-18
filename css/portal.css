@@ -66,6 +66,7 @@ p {
 
 footer a {
     color:rgb(241, 241, 64);
+}
 
 
 @media screen and (max-width: 550px){
@@ -79,4 +80,3 @@ footer a {
       display: block;
     }
 }
-
