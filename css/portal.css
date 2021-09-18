@@ -56,16 +56,16 @@ p {
 #date {
     margin-top: 0;
     font-size: small;
-    color:rgb(169, 241, 135)
+    color:rgb(241, 241, 64);
 }
 
 #copyright {
     margin-bottom: 0;
-    font-size: medium;
+    font-size: 15px;
 }
 
 footer a {
-    color:rgb(241, 241, 64);
+    color: white;
 }
 
 
