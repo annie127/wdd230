@@ -25,15 +25,16 @@ h1 {
 
 h2 {
     background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
     border-bottom: 1px solid rgb(12, 11, 11);
     margin: 0 20px 0 20px;
 }
 
 ul { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #fff;
-    font-size: large;
+    font-size: 17px;
     font-weight: lighter;
     padding-bottom: 30px;
     padding-left: 50px;
@@ -45,11 +46,9 @@ footer {
     line-height: 2em;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 15px;
- 
     }
 
 p {
-    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     color: white;
 }
@@ -57,12 +56,16 @@ p {
 #date {
     margin-top: 0;
     font-size: small;
-    color:rgb(194, 194, 19)
+    color:rgb(235, 190, 44)
 }
 
 #copyright {
     margin-bottom: 0;
+    font-size: medium;
 }
+
+footer a {
+    color:rgb(241, 241, 64);
 
 
 @media screen and (max-width: 550px){
