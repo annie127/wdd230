@@ -6,46 +6,49 @@
 
 header {
     background-color: rgb(9, 108, 145);
-    line-height: 6em;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 15px;
+    line-height: 1.5em;
+    font-family: 'Roboto', sans-serif;
     margin-top: 20px;
+    text-align: center;
     }
 
 img {
-    float: right;
+
     margin-top: 20px;
-    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 h1 {
+    
     color: #ffffff;
-    margin-left: 140px;
+    padding-bottom: 15px;
+
 }
 
 h2 {
     background-color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: lighter;
     border-bottom: 1px solid rgb(12, 11, 11);
     margin: 0 20px 0 20px;
 }
 
 ul { 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     background-color: #fff;
     font-size: 17px;
     font-weight: lighter;
     padding-bottom: 30px;
     padding-left: 50px;
     padding-top: 20px;
+    line-height: 25px;
 }
 
 footer {
     background-color: rgb(9, 108, 145);
     line-height: 2em;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
     }
 
 p {
@@ -69,14 +72,3 @@ footer a {
 }
 
 
-@media screen and (max-width: 550px){
-    /* beginning of media query */
-    header,
-    footer,
-    section,
-    img,
-    h1,
-    nav {
-      display: block;
-    }
-}

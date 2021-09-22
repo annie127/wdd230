@@ -1,0 +1,20 @@
+@media only screen and (min-width: 32.5em) {
+
+  header, floater {
+
+      border-radius: 15px;
+      }
+  
+  img {
+      float: right;
+      margin-right: 20px;;
+  }
+
+ header {
+    line-height: 6em;
+ }
+ h1 {
+    padding-bottom: 5px;
+ }
+}
+  
