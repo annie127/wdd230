@@ -21,5 +21,12 @@
     grid-column: 3/4;
 }
 
+header {
+    line-height: 10px;
+}
+
+footer {
+    line-height: 5px;
+}
 
 }
