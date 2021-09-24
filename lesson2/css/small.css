@@ -1,0 +1,82 @@
+  
+  #content {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+
+header, footer{
+    background-color: rgb(7, 104, 104);
+    text-align: center;
+}
+
+header {
+    line-height: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+header p {
+    font-size: 25px;
+}
+
+footer {
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    line-height: 5px;
+    margin-bottom: 40px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 15px;
+}
+
+footer a{
+    color:white;
+}
+
+img {
+    width: 100%;
+    border: 1px solid rgb(160, 158, 158);
+    margin-top: 10px;
+}
+
+h2 {
+    background-color: rgb(115, 202, 202);
+    color:black;
+    font-family: 'Martel Sans', sans-serif;
+    font-size:larger;
+    padding: 7px 5px 7px 7px;
+    border-radius: 5px;
+  }
+
+ .descrip {
+    padding: 10px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    
+  }
+
+  #container a{
+    padding: 0 0 0 10px;
+
+  }
+
+  .site-name {
+      font-size: 20px;;
+      padding: 5px 0 5px 10px;
+  }
+
+  #one {
+      background-color: aliceblue;
+  }
+
+  #two {
+      background-color: aliceblue;
+  }
+
+  #three {
+      background-color: aliceblue;
+  }
