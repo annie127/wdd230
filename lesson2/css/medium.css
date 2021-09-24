@@ -11,6 +11,7 @@
 
     #one {
         grid-column: 1/2;
+        margin-top: 0;
     }
     
     #two {
@@ -26,4 +27,13 @@
     img {
         width: 100%;
     }
+
+    header {
+        line-height: 10px;
+    }
+
+    footer {
+        line-height: 5px;
+    }
+  
 }

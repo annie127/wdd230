@@ -1,6 +1,6 @@
   
   #content {
-    max-width: 900px;
+    max-width: 960px;
     margin: 0 auto;
     background-color: #fff;
   }
@@ -8,15 +8,18 @@
 header, footer{
     background-color: rgb(7, 104, 104);
     text-align: center;
+
+    
 }
 
 header {
-    line-height: 10px;
+    line-height: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 40px;
     color: white;
-    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+
 }
 
 header p {
@@ -24,9 +27,9 @@ header p {
 }
 
 footer {
-    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     color: white;
-    line-height: 5px;
+    line-height: 10px;
     margin-bottom: 40px;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -39,18 +42,19 @@ footer a{
 
 img {
     width: 100%;
-    border: 1px solid rgb(160, 158, 158);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 10px;
 }
 
 h2 {
+    margin-top: 0;
     background-color: rgb(115, 202, 202);
-    color:black;
-    font-family: 'Martel Sans', sans-serif;
-    font-size:larger;
     padding: 7px 5px 7px 7px;
     border-radius: 5px;
-  }
+    font-size: 20px;
+    font-weight: normal;
+
+}
 
  .descrip {
     padding: 10px;
@@ -65,18 +69,35 @@ h2 {
   }
 
   .site-name {
-      font-size: 20px;;
+      font-size: 18px;;
       padding: 5px 0 5px 10px;
   }
 
   #one {
-      background-color: aliceblue;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-style: ridge;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
 
   #two {
-      background-color: aliceblue;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-style: ridge;
+    padding: 5px;
+    margin-bottom: 15px;
   }
 
   #three {
-      background-color: aliceblue;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-style: ridge;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+
+  #container {
+    font-family: 'Pontano Sans', sans-serif;
   }
