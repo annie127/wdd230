@@ -114,7 +114,7 @@ picture {
 
 /* target-audience css */
 
-#description, #personas, #scenarios {
+#description, #personas, #scenarios-list {
     background-color: #DDF4F8;
     margin: 10px;
       padding: 1px 10px 1px 10px;
@@ -122,8 +122,13 @@ picture {
 
 }
 
-#scenarios {
+#scenarios-list {
     padding-bottom: 10px;
+    text-align: center;
+}
+
+#scenarios-list ul li {
+    list-style-type: none;
 
 }
 
