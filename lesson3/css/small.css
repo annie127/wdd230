@@ -81,7 +81,7 @@ nav a:link {
       
   }
 
-h1, h2, nav {
+h1, h2, h3, nav {
     font-family: 'Encode Sans Expanded', sans-serif;
 }
 
@@ -90,8 +90,13 @@ h1 {
 }
 
 h2{
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 500;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 article h2 p {
@@ -164,6 +169,7 @@ picture {
     padding-bottom: 12px;
     text-align: left;
     font-size: 18px;
+    font-weight: 600;
 
   }
 
