@@ -1,0 +1,247 @@
+  
+  #content {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+  }
+
+header, footer{
+    background-color: #830B4D;
+    text-align: center;   
+    border-radius: 15px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    line-height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+footer {
+    line-height: 15px;
+    margin-bottom: 30px;
+    padding-top: .5px;
+    padding-bottom: .5px;
+    font-size: 15px;
+}
+
+nav ul {
+    background-color: #589DB1;
+    text-align: center;
+   margin-left: 10px;
+   margin-right: 10px;
+   list-style-type: none;
+    font-weight: bold;
+    overflow: hidden;
+    padding-left: 0;
+
+}
+
+nav ul li a{
+    display: block;
+    padding: .5em;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+nav a:link {
+    color: #830B4D;
+  }
+  
+  nav a:visited {
+    color: #830B4D;
+  }
+  
+  nav a:hover {
+    background-color: #FFFCC2;
+  }
+  
+  nav a:active {
+    color: #830B4D;
+  }
+
+  article {
+      padding: .5em;
+      font-family: 'Hind Siliguri', sans-serif;
+  }
+
+  #name, #purpose, #domain, #logo {
+      background-color: #DDF4F8;
+      margin: 10px;
+      padding: 1px 10px 1px 10px;
+      line-height: 25px;
+      
+  }
+
+h1, h2, nav {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+article h2 p {
+    font-size: 20px;
+  
+}
+
+footer a {
+    color: white;
+}
+
+picture {
+    max-width: 100%;
+}
+
+/* target-audience css */
+
+#description, #personas, #scenarios {
+    background-color: #DDF4F8;
+    margin: 10px;
+      padding: 1px 10px 1px 10px;
+      line-height: 25px;
+
+}
+
+#scenarios {
+    padding-bottom: 10px;
+
+}
+
+#persona1, #persona2 {
+    border-radius: 5px;
+    border-style: ridge;
+    padding: 0 10px 10px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.persona {
+    line-height: 12px;
+}
+
+
+/* color scheme css */
+
+#color-scheme{
+    padding: .5em;
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #DDF4F8;
+    margin: 30px 20px 40px 20px;
+   
+}
+
+#color {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  #color td, #color th {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  
+  #color th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-size: 18px;
+
+  }
+
+  #color-header {
+      color: #FFFFFF;
+      background-color:#830B4D;
+  }
+
+  #color-footer {
+    color: #FFFFFF;
+    background-color:#830B4D;
+}
+
+#color-nav {
+    color: #830B4D;
+    background-color:#589DB1;
+}
+
+.color-main {
+    color: #000000;
+    background-color: #DDF4F8;
+
+}
+
+/* typography css */
+
+#fonts{
+    padding: .5em;
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #DDF4F8;
+    margin: 30px 20px 40px 20px;
+}
+
+#font-size {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  #font-size td, #font-size th {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  
+  #font-size th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-size: 18px;
+
+  }
+
+  #font-header {
+     font-family: 'Rubik', sans-serif;
+     font-size: 30px;
+  }
+
+  #font-footer {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+  }
+
+  #font-nav {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+  }
+
+  #font-h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+  }
+
+  #font-h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+  }
+
+  #font-h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+  }
+
+  #font-text {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 17px;
+  }
