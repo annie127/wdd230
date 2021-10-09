@@ -1,0 +1,44 @@
+@media only screen and (min-width: 64rem) {
+    
+    header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 2rem;
+	}
+
+	#motto {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+    }
+	
+    nav button {
+		display: none;
+	}
+
+	nav ul {
+		margin-left: 70px;
+		padding-top: 20px;
+
+	}
+
+	nav ul li {
+		float: left;
+	}
+
+	nav ul li a {
+		border: none;
+		padding: .6rem 1rem;
+		font-size: 18px;
+		font-weight: bolder;
+		border-bottom: 3px solid rgb(131, 125, 125);
+
+	}
+
+	nav ul.hide {
+		display: block;
+
+	}
+}

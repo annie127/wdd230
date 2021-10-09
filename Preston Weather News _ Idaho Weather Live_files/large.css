@@ -1,0 +1,24 @@
+@media only screen and (min-width: 64rem) {
+    
+    header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 2rem;
+	}
+
+	#motto {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+    }
+    .main-content {
+        background-color: #129cb4;
+       }
+   
+	}
+	
+	nav ul li a {
+		padding: .6rem 1rem;
+	}

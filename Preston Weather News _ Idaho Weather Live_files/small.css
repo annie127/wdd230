@@ -1,0 +1,127 @@
+  
+  #content {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+  }
+
+header, footer{
+    background-color: #830B4D; 
+    border-radius: 15px;
+    color: white;
+ 
+}
+
+header {
+	background-color: #830B4D; 
+	padding: 5px 5px;
+	display: flex;
+	align-items:center;
+  justify-content: center;
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+  flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.4rem;
+  margin: 0 0 0 17px;
+  line-height: 40px;
+}
+
+#motto {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: #fff;
+	margin-left: 20px;
+  font-size: 14px;
+}
+
+.main-content {
+ border-style: ridge;
+ line-height: 30px;
+ padding-left: 10px;
+ padding-bottom: 10px;
+ font-size: 17px;
+ background-color: #DDF4F8;
+font-family: 'Noto Sans Display', sans-serif;
+
+}
+
+main h2{
+  padding-left: 10px;
+  text-align: center;
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+
+footer {
+    line-height: 20px;
+    padding-top: .3px;
+    padding-bottom: .3px;
+    font-size: 15px;
+    font-family: 'Noto Sans Display', sans-serif;
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer a {
+  color: white;
+}
+
+nav button img {
+  width: 80%;
+}
+
+nav button {
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+}
+
+nav {
+  font-family: 'Encode Sans Expanded', sans-serif;
+  background-color: #cccc;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 3%;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.active a{
+  background-color: rgba(0,0,0,0.1);
+}
+
+nav ul li a:hover{
+  background-color: #FFF85A;
+}
+
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

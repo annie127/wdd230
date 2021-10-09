@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preston Weather News | Idaho Weather Live</title>
+  <meta name="description" content="Check out the weather and current happenings in the Idaho city of Preston.">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@500&family=Noto+Sans+Display:wght@400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+  <script defer src="js/current-date.js"></script>
+  <script defer src="js/scripts.js"></script>
+</head>
+
+<body>
+  <div id="content">
+    <header>
+      <picture><img src="images/idaho-website-logo.png" alt="site-logo"></picture>
+      <section class="headings">
+        <h1>Idaho Weather Live</h1>
+        <div id="motto">Your trusted weather source, "weather" you like it or not</div>
+      </section>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()"><img src="images/menu-icon.svg" alt="hamburger icon"></button>
+      <ul id="navigation" class="hide">
+        <li><a href="#">HOME</a></li>
+        <li class="active"><a href="#">PRESTON</a></li>
+        <li><a href="#">SODA SPRINGS</a></li>
+        <li><a href="#">FISH HAVEN</a></li>
+        <li><a href="#">STORM CENTER</a></li>
+        <li><a href="#">GALLERY</a></li>
+      </ul>
+    </nav>
+    <div class="main-content">
+    <main>
+      <h2>Preston Idaho</h2>
+      <div class="sub-content">Hero image w/ weather summary</div>
+      <div class="sub-content">5 day forecast</div>
+      <div class="sub-content">Article</div>
+      <div class="sub-content">Contact Information</div>
+    </div>
+      <footer>
+        <p>&copy; Idaho Weather Live | Annie Hawley <br>
+          <span id="current-date"></span>
+      </footer>
+    </main>
+  </div>
+</body>
+
+</html>
