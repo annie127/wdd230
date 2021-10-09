@@ -5,45 +5,34 @@
 	}
 
 	.headings h1 {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 	}
 
 	#motto {
 		letter-spacing: 1.5pt;
 		font-size: larger;
-		margin-left: 15px;
+		margin-left: 17px;
     }
-	
-    nav button {
+
+	nav {
+		border-bottom: 3px solid rgb(131, 125, 125);
+	}
+
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+		font-size: 18px;
+	}
+	.navigation li:first-child {
 		display: none;
 	}
 
-	nav ul {
-		margin-left: 20px;
-		padding-top: 20px;
 
-	}
 
-	nav ul li {
-		float: left;
-	}
-
-	nav ul li a {
-		border: none;
-		padding: .6rem .8rem;
-		font-size: 15px;
-		font-weight: bolder;
-		border-bottom: 3px solid rgb(131, 125, 125);
-
-	}
-
-	nav ul.hide {
-		display: block;
-
-	}
-
-	main h2 {
-		font-size: 18px;
-	}
 }
-

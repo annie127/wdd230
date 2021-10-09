@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Preston Weather News | Idaho Weather Live</title>
-  <meta name="description" content="Check out the weather and current happenings in the Idaho city of Preston.">
+  <meta name="description" content="Check out the weather and current happenings in Preston, Idaho.">
   <link
     href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@500&family=Noto+Sans+Display:wght@400&display=swap"
     rel="stylesheet">
@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <div id="content">
+  <div id="whole-screen">
     <header>
       <picture><img src="images/idaho-website-logo.png" alt="site-logo"></picture>
       <section class="headings">
@@ -26,9 +26,9 @@
         <div id="motto">Your trusted weather source, "weather" you like it or not</div>
       </section>
     </header>
-    <nav class="clearfix">
-      <button onclick="toggleMenu()"><img src="images/menu-icon.svg" alt="hamburger icon"></button>
-      <ul id="navigation" class="hide">
+    <nav>
+      <ul class="navigation">
+        <li><a class="ham-menu" href="#"><img src="images/menu-icon.svg" alt="hamburger icon"></a></li>
         <li><a href="#">HOME</a></li>
         <li class="active"><a href="#">PRESTON</a></li>
         <li><a href="#">SODA SPRINGS</a></li>
@@ -37,6 +37,8 @@
         <li><a href="#">GALLERY</a></li>
       </ul>
     </nav>
+  </div>
+  <div id="content">
     <main>
       <div class="main-content">
         <h2>Preston Idaho</h2>
@@ -50,7 +52,8 @@
       <span id="current-date"></span>
   </footer>
   </main>
-  </div>
+</div>
+  
 </body>
 
 </html>
