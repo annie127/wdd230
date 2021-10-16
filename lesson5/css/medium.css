@@ -1,0 +1,83 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    
+	header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 1.6rem;
+	}
+
+	#motto {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+    }
+
+	nav {
+		border-bottom: 3px solid rgb(131, 125, 125);
+	}
+
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+		font-size: 18px;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+
+	main h2{
+		font-size: 23px;
+	}
+
+	.main-image{
+		position: relative;
+		
+	  }
+
+	  .current-temp {
+	   position: absolute;
+	   top: 15px;
+	   left: 30px;
+	 }
+	 
+	 .current-temp h3 {
+	   font-size: 20px;
+	 }
+	 
+	 .main-article img{
+	   float: right;
+	   margin-left: 15px;
+	   margin-bottom: 15px;
+	 }
+	  
+	  .map iframe{
+		max-width: 100%;
+	  }
+	 
+	 .contact-info {
+	   display: grid;
+	   grid-template-columns: 1fr 1fr;
+	   grid-gap: 20px;
+	 }
+	 
+	 .map {
+	   grid-column: 1/2;
+	 }
+
+	 .contacts {
+	   grid-column: 2/3;
+	   padding-top: 2rem;
+	   padding-left: 4rem;
+	   
+	 }
+
+}
