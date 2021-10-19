@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 1024px) {
     
     header img {
 		width: 100%;
@@ -82,12 +82,6 @@
 	   padding-left: 4rem;
 	   
 	 }
-	 
-
-
-
-
-
 
 
 }
