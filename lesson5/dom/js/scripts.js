@@ -1,13 +1,16 @@
 const input = document.querySelector('input');
 const button = document.querySelector('button');
-const list = document.querySelector('list');
+const list = document.querySelector('.list');
 
 button.addEventListener('click', function() {
 
-    const listItem = document.createElement('li');
-    const delButton = document.createElement('button');  
+    let myItem = input.value;
+        input.value = '';
 
-    listItem.textContent = input;
+    const listItem = document.createElement('li');
+    const delButton = document.createElement('button');
+
+    listItem.textContent = myItem;
     delButton.textContent = '❌';
 
     listItem.appendChild(delButton);
