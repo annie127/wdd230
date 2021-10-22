@@ -130,15 +130,12 @@ nav ul li a:hover{
   font-family: 'Noto Sans Display', sans-serif;
   margin-top: 10px;
   text-align: center;
+  font-size: 15px;
 }
 
 .weather-summary h3 {
   font-size: 17px;
   text-align: center;
-}
-
-.weather-summary {
-  font-size: 15px;
 }
 
 .forecast {
