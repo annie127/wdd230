@@ -121,7 +121,7 @@ nav ul li a:hover{
  }
 
  .weather-summary {
-  background: radial-gradient(#eee, #DDF4F8);
+  background: radial-gradient(#eee, #FFF85A);
   box-shadow: 0 0 30px #333;
   opacity: 0.9;
   padding: .5rem 1.5rem .5rem 1.5rem;
