@@ -15,6 +15,7 @@
   <script defer src="js/pancake.js"></script>
   <script defer src="js/hamburger.js"></script>
   <script defer src="js/lazyload.js"></script>
+  <script defer src="js/visits.js"></script>
 </head>
 <body onLoad="setDiv()">
   <div id="alert-banner">
@@ -32,17 +33,18 @@
       <ul class="navigation">
         <li><a class="ham-menu" href="#"><img src="images/menu-icon.svg" alt="hamburger icon"></a></li>
         <li><a href="#">HOME</a></li>
-        <li class="active"><a href="../lesson6/preston-6.html">PRESTON</a></li>
+        <li><a href="../lesson7/preston-6.html">PRESTON</a></li>
         <li><a href="#">SODA SPRINGS</a></li>
         <li><a href="#">FISH HAVEN</a></li>
         <li><a href="#">STORM CENTER</a></li>
-        <li><a href="/lesson7/gallery-7.html">GALLERY</a></li>
+        <li class="active"><a href="../lesson7/gallery-7.html">GALLERY</a></li>
       </ul>
     </nav>
   </div>
   <div id="content">
     <main>
         <h2>Gallery of Photos</h2>
+        <p id="visits"></p>
         <div class="gallery">
         <figure class="image1"><img src='images/placeholder-gallery.png' data-src='images/fog.jpeg' alt='foggy forest'>
             <figcaption>Fog in the forest of Soda Springs</figcaption>
