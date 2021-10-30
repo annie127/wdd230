@@ -101,5 +101,10 @@ main figure:hover {
 	transform: scale(1.3);
 	box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
 }
+
+.welcome {
+	font-size: 18px;
+
+  }
   
 }
