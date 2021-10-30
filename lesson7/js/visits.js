@@ -2,9 +2,10 @@ const todaysDate = Date.now();
 const millis = 8640000;
 const lastVisit = localStorage.getItem('lastvisit');
 
+daysBetweenVisits = (todaysDate - lastVisit) / millis;
+
 let messageDays;
-if (lastVisit > 0 ) {
-    daysBetweenVisits = (lastVisit - todaysDate) / millis;
+if (daysBetweenVisits >= 1) {
     messageDays = `Welcome back. It has been ${daysBetweenVisits.toFixed(0)} day(s) since your last visit.`;
 }
 else {
