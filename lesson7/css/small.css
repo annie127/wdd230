@@ -257,5 +257,13 @@ main figure {
   
 }
 
+.welcome {
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 18px;
+  margin-left: 40px;
+  font-style: italic;
+  color: #107283;
+
+}
 
 

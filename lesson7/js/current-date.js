@@ -6,3 +6,4 @@ const year = d.getFullYear();
 let currentDate = days[d.getDay()] + ',' + ' ' + date + ' ' + months[d.getMonth()] + ' ' + year;
 document.getElementById("current-date").innerHTML = currentDate;
 
+
