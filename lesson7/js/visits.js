@@ -12,7 +12,7 @@ else {
     messageDays = "Welcome. This is your first visit. Enjoy our gallery!"
 }
 
-document.getElementById("visits").innerHTML = todaysDate;
+document.getElementById("visits").innerHTML = messageDays;
 
 localStorage.setItem('lastVisit', todaysDate);
 
