@@ -51,9 +51,27 @@ tbody tr:nth-child(5) td:first-child {
 
 #diff-color {
     background-color: #628ca6;
-    color: rgb(248, 244, 244);
+    color: rgb(38, 28, 28);
 }
      
+
+@media only screen and (max-width: 641px) {
+
+    tr:first-child th {
+        font-size: 23px;
+    }
+
+    th {
+    font-size: 18px;
+    }
+
+    tbody {
+        font-size: 15px;
+    }
+
+}
+
+
 
 
   
