@@ -1,6 +1,7 @@
-const todaysDate = Date.now();
+const todaysDate = new Date();
 const millis = 8640000;
-const prevDate = localStorage.getItem('lastVisit');
+const prevDate = new Date(parseInt(localStorage.getItem('lastVisit')));
+
 
 daysBetweenVisits = Math.floor((todaysDate - prevDate) / millis);
 
@@ -14,6 +15,6 @@ else {
 
 document.getElementById("visits").innerHTML = messageDays;
 
-localStorage.setItem('lastVisit', todaysDate);
+localStorage.setItem('lastVisit', +todaysDate);
 
 
