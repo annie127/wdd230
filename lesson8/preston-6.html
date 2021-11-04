@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preston Idaho Weather | Current News | Idaho Weather Live </title>
+  <meta name="description" content="Check out the latest weather and current happenings in Preston, Idaho.">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+  <script defer src="js/current-date.js"></script>
+  <script defer src="js/pancake.js"></script>
+  <script defer src="js/hamburger.js"></script>
+  <script defer src="js/windchill.js"></script>
+</head>
+
+<body onLoad="setDiv()">
+  <div id="alert-banner">
+    <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+  </div>
+  <div id="whole-screen">
+    <header>
+      <figure><img src="images/idaho-website-logo.png" alt="site-logo"></figure>
+      <section class="headings">
+        <h1>Idaho Weather Live</h1>
+        <div id="motto">Your trusted weather source, "weather" you like it or not</div>
+      </section>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a class="ham-menu" href="#"><img src="images/menu-icon.svg" alt="hamburger icon"></a></li>
+        <li><a href="#">HOME</a></li>
+        <li class="active"><a href="../lesson8/preston-6.html">PRESTON</a></li>
+        <li><a href="#">SODA SPRINGS</a></li>
+        <li><a href="#">FISH HAVEN</a></li>
+        <li><a href="../lesson8/stormcenter.html">STORM CENTER</a></li>
+        <li><a href="../lesson8/gallery-7.html">GALLERY</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="content">
+    <main>
+      <h2>Preston, Idaho</h2>
+      <div class="main-image">
+        <picture>
+          <source media="(min-width: 641px) and (max-width: 1007px)" srcset="images/hero-image-medium.jpeg">
+          <source media="(min-width: 1008px)" srcset="images/hero-image-large.jpeg">
+          <img src="images/hero-image-small.jpeg" alt="sun shining over the mountain and field">
+          </picture>
+        <section class="weather-summary">
+          <h3>Weather Summary</h3>
+          <p>Currently: <span id="current">Windy</span></p>
+          <p>Temperature: <span id="temp">48</span> &deg;F</p>
+          <p>Wind Chill: <span id="wind"></span></p>
+          <p>Humidity: <span id="humidity">69%</span></p>
+          <p>Wind Speed: <span id="speed">5</span> mph</p>
+        </section>
+      </div>
+
+      <h2>5-Day Forecast</h2>
+      <div class="forecast">
+        <div class="mon">
+          <p class="day">Mon</p>
+          <p><img src="images/icon-summer.png" alt="sun icon"></p>
+          <p>75 &deg;F</p>
+        </div>
+        <div class="tue">
+          <p class="day">Tue</p>
+          <p><img src="images/icon-summer.png" alt="sun icon"></p>
+          <p>80 &deg;F</p>
+        </div>
+        <div class="wed">
+          <p class="day">Wed</p>
+          <p><img src="images/icon-summer.png" alt="sun icon"></p>
+          <p>83 &deg;F</p>
+        </div>
+        <div class="thu">
+          <p class="day">Thu</p>
+          <p><img src="images/icon-summer.png" alt="sun icon"></p>
+          <p>79 &deg;F</p>
+        </div>
+        <div class="fri">
+          <p class="day">Fri</p>
+          <p><img src="images/icon-summer.png" alt="sun icon"></p>
+          <p>77 &deg;F</p>
+        </div>
+      </div>
+
+      <div class="main-article">
+        <h3 class="article-title">Article Title</h3>
+        <img src="images/preston-image2.jpeg" alt="children playing">
+        <p>Lorem ipsum dolor sit amet, elit. Etiam egestas lectus diam, ut accumsan mi hendrerit
+          in. Aenean commodo magna eleifend ipsum ultricies, vitae consequat turpis consectetur. Ut vitae iaculis mi.
+          Aliquam erat volutpat. Proin ultrices ante id velit euismod, nec tristique augue porttitor. Proin neque diam,
+          elementum non varius vitae, porttitor ac arcu. Phasellus tincidunt nisi non elit tempus tempus. Praesent
+          mollis eleifend mi eu faucibus. Donec molestie sapien sit amet elit egestas, ut vestibulum risus faucibus.
+          Suspendisse eget fermentum augue, aliquet ex.</p>
+
+        <p>Curabitur consectetur urna at lorem tristique rhoncus. Praesent consequat, nunc nec lacinia tincidunt, orci
+          metus pretium felis, vel fermentum metus lorem ac nisi. Sed dapibus arcu ut dui rutrum faucibus. Duis in
+          viverra
+          lectus. Donec venenatis diam nunc, ac congue dui malesuada non. Etiam rutrum tristique iaculis. Morbi
+          ullamcorper nisi nec ipsum malesuada, in consectetur diam sollicitudin. Donec eget enim non metus congue
+          iaculis
+          ut at enim. Fusce faucibus sed ipsum non accumsan. Curabitur sagittis, felis sed sagittis suscipit, lectus
+          odio
+          congue enim, quis sodales mi eros et magna. Donec tincidunt aliquam velit, a semper libero gravida ut. Vivamus
+          tortor erat, commodo sit amet dolor at, volutpat condimentum libero. Aliquam ultrices mauris ut dolor congue
+          luctus. Nulla ut congue erat.</p>
+
+        <p>raesent sagittis faucibus lectus, sed posuere nunc vestibulum ac. Pellentesque velit diam, dictum id quam in,
+          tempus tincidunt justo. Aenean ut faucibus diam, a consequat justo. Donec eu risus ipsum. Donec lectus orci,
+          facilisis vel fermentum vel, sodales ac erat. Curabitur nulla turpis, aliquam sed mi elementum, porta
+          vestibulum
+          arcu. Vivamus sagittis lacus ac semper placerat. Donec ac commodo ligula, vitae elementum risus. Donec dolor
+          magna, vulputate a turpis eu, tempus vulputate leo.</p>
+          
+      </div>
+    </main>
+  </div>
+  
+  <footer>
+    <div class="contact-info">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11841.698104891779!2d-111.881348!3d42.098378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7932559073d%3A0x2bba18d652e675bf!2sW%201st%20N%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1634308418883!5m2!1sen!2sph"
+          width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="contacts">
+        <p>Idaho Weather Live <br>
+          📍W 1st N <br>
+          Preston, ID 83263, USA</p>
+        <p>📞 123 446 7896 <br>
+          ✉️ idahoweatherlive.com</p>
+        <img src="images/fb-icon.png" alt="facebook icon"> <span><img src="images/insta-icon.png" alt="instagram icon">
+        </span><span><img src="images/messenger-icon.png" alt="messenger icon"> </span><span><img
+            src="images/twitter-icon.png" alt="twitter icon"> </span>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <p>&copy; Idaho Weather Live | Attributions | Annie Hawley <br>
+        <span id="current-date"></span>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+  WebFont.load({google: {families: ['Encode Sans Expanded:500', 'Noto Sans Display:400']}});
+</script>
+</body>
+
+</html>
