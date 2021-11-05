@@ -46,15 +46,15 @@
     <main>
       <h2>Report A Storm</h2>
       <form method="post" action="thanks.html">
-      <fieldset>
+      <div class="information">
         <h3>Contact Information</h3>
         <label class="contact">Full Name*<input type="text" name="fullname" pattern="[^0-9]{5,}" required></label>
         <label class="contact">Email <input type="email" name="email" placeholder="myemail@gmail.com"></label>
         <label class="contact">Phone* <input type="tel" name="phone" required></label>
         <label class="contact">Zip Code* <input type="number" name="code" required></label>
-      </fieldset>
+      </div>
 
-      <fieldset>
+      <div class="information">
         <h3>Storm Information</h3>
         <label class="storm">Date<input type="date" name="stormDate"></label>
         <label class="storm">Type <input name="storm" list="stormType"></label>
@@ -94,11 +94,11 @@
           <label class="radio"><input type="radio" name="level" value="yes">Yes</label>
           <label class="radio"><input type="radio" name="level" value="maybe">Maybe</label>
           <label class="radio"><input type="radio" name="level" value="no">No</label>
-      </fieldset>
-      <fieldset>
+        </div>
+        <div class="information">
         <h3>Additional Information</h3>
-        <label><textarea id="comments" name="comments"></textarea></label>
-      </fieldset>
+        <label class="info">Send us any message for more details.<textarea id="comments" name="comments"></textarea></label>
+        </div>
       <input type="submit" value="Report Storm" class="submitBtn">
     </form>
     </main>

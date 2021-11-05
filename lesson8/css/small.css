@@ -274,7 +274,7 @@ form {
   font-family: 'Noto Sans Display', sans-serif;
 }
 
-form fieldset {
+form .information{
   margin: 2rem 0;
   border: 1px solid #78dcee;
   border-radius: 10px;
@@ -285,10 +285,10 @@ form fieldset {
 form h3 {
   margin: 0;
   padding-bottom: 1.5rem;
-  font-size: .9;
+  font-size: 1rem;
 }
 
-form label.contact, form label.storm {
+form label.contact, form label.storm, form label.info {
   display: block;
   padding-top: 1rem;
   margin-bottom: 1rem;
