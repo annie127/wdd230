@@ -45,7 +45,7 @@
   <div id="content">
     <main>
       <h2>Report A Storm</h2>
-      <form method="get" action="thanks.html">
+      <form method="post" action="thanks.html">
       <fieldset>
         <h3>Contact Information</h3>
         <label class="contact">Full Name*<input type="text" name="fullname" pattern="[^0-9]{5,}" required></label>
@@ -99,11 +99,10 @@
         <h3>Additional Information</h3>
         <label><textarea id="comments" name="comments"></textarea></label>
       </fieldset>
-      <input type="submit" value="Report A Storm" class="submitBtn" onclick="redirect();">
+      <input type="submit" value="Report Storm" class="submitBtn">
     </form>
     </main>
   </div>
-  
   <footer>
     <div class="contact-info">
       <div class="map">
