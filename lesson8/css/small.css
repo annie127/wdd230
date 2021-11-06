@@ -269,33 +269,53 @@ main figure {
 
 /* ------------------------------------ Storm Center CSS -------------------------------- */
 
+
+.form-body{
+  background-image: url("../images/storm-report.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;  
+}
+
+
+picture{
+  display: none;
+}
+
 form {
   font-size: 16px;
   font-family: 'Noto Sans Display', sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 1rem;
 }
 
-form .information{
+fieldset{
   margin: 2rem 0;
   border: 1px solid #78dcee;
   border-radius: 10px;
-  padding: .7rem 2%;
+  border-radius: 10px;
+  padding: .5rem 2%;
   background-color: #DDF4F8;
 }
 
-form h3 {
+legend {
   margin: 0;
-  padding-bottom: 1.5rem;
   font-size: 1rem;
+  background-color: #097c91;
+  color: white;
+  padding: .5rem;
+  border-radius: 4px;
 }
 
-form label.contact, form label.storm, form label.info {
+label.contact, label.storm, label.info {
   display: block;
   padding-top: 1rem;
   margin-bottom: 1rem;
   color: #830B4D;
 }
 
-form label.contact input, form label.storm select, form label.storm input {
+label.contact input, label.storm select, label.storm input {
   display: block;
   border: solid 1px #999;
   border-radius: 4px;
@@ -304,22 +324,22 @@ form label.contact input, form label.storm select, form label.storm input {
   background-color: whitesmoke;
 }
 
-form label.radio{
+label.radio{
   display: block;
   padding-bottom: .5rem;
 }
 
-form label.radio input {
+label.radio input {
   margin: .3rem;
 }
 
-form textarea {
-  width: 80%;
+textarea {
+  width: 90%;
   height: 300px;
 }
 
 
-form input.submitBtn{
+input.submitBtn{
   border: none;
   background-color: #830B4D;
   color: white;
@@ -329,11 +349,11 @@ form input.submitBtn{
   font-size: 1.2rem;
 }
 
-form label.contact input:required {
+label.contact input:required {
   border-left: red solid 6px;
 }
 
-form label.contact input:required:valid {
+label.contact input:required:valid {
   border-left: green solid 6px;
 }
 

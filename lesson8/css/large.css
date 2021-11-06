@@ -109,8 +109,9 @@ main figure:hover {
 
 /* ------------------------------------ Storm Center Page -------------------------------- */
 
-form h3 {
 
+
+legend {
 	font-size: 1.2rem;
   }
 

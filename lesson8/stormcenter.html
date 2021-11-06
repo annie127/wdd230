@@ -18,6 +18,7 @@
   <script defer src="js/visits.js"></script>
   <script defer src="js/slider.js"></script>
 </head>
+
 <body onLoad="setDiv()">
   <div id="alert-banner">
     <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
@@ -45,62 +46,67 @@
   <div id="content">
     <main>
       <h2>Report A Storm</h2>
-      <form method="post" action="thanks.html">
-      <div class="information">
-        <h3>Contact Information</h3>
-        <label class="contact">Full Name*<input type="text" name="fullname" pattern="[^0-9]{5,}" required></label>
-        <label class="contact">Email <input type="email" name="email" placeholder="myemail@gmail.com"></label>
-        <label class="contact">Phone* <input type="tel" name="phone" required></label>
-        <label class="contact">Zip Code* <input type="number" name="code" required></label>
-      </div>
+      <div class="form-body">
+        <form method="post" action="thanks.html"
+          onsubmit="return confirm('Are you sure you want to send your report?')">
+            <fieldset>
+              <legend>Contact Information</legend>
+              <label class="contact">Full Name*<input type="text" name="fullname" pattern="[^0-9]{5,}" required></label>
+              <label class="contact">Email <input type="email" name="email" placeholder="myemail@gmail.com"></label>
+              <label class="contact">Phone* <input type="tel" name="phone" required></label>
+              <label class="contact">Zip Code* <input type="number" name="code" required></label>
+            </fieldset>
 
-      <div class="information">
-        <h3>Storm Information</h3>
-        <label class="storm">Date<input type="date" name="stormDate"></label>
-        <label class="storm">Type <input name="storm" list="stormType"></label>
-        <datalist id="stormType">
-          <option value="Flash Flood">
-          <option value="Hail">
-          <option value="Hurricane">
-          <option value="Thunderstorm">
-          <option value="Tornado">
-        </datalist>
-      <label class="storm" for="rating">Rating
-          <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-          <span id="ratingvalue">5</span>
-        </label>
-        <datalist id="tickmarks">
-          <option value="0">
-          <option value="1">
-          <option value="2">
-          <option value="3">
-          <option value="4">
-          <option value="5">
-          <option value="6">
-          <option value="7">
-          <option value="8">
-          <option value="9">
-          <option value="10">
-        </datalist>
-            <label class="storm"> Region
+            <fieldset>
+              <legend>Storm Information</legend>
+              <label class="storm">Date<input type="date" name="stormDate"></label>
+              <label class="storm">Type <input name="storm" list="stormType"></label>
+              <datalist id="stormType">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+              </datalist>
+              <label class="storm" for="rating">Rating
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                  oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+              </label>
+              <datalist id="tickmarks">
+                <option value="0">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10">
+              </datalist>
+              <label class="storm"> Region
                 <select name="region">
-                <option value="region">Select Region</option>
-                <option value="preston">Preston</option>
-                <option value="sodasprings">Soda Springs</option>
-                <option value="fishhaven">Fish Haven</option>
-            </select>
-          </label>
-          <label class="storm">User In-Danger</label>
-          <label class="radio"><input type="radio" name="level" value="yes">Yes</label>
-          <label class="radio"><input type="radio" name="level" value="maybe">Maybe</label>
-          <label class="radio"><input type="radio" name="level" value="no">No</label>
+                  <option value="region">Select Region</option>
+                  <option value="preston">Preston</option>
+                  <option value="sodasprings">Soda Springs</option>
+                  <option value="fishhaven">Fish Haven</option>
+                </select>
+              </label>
+              <label class="storm">User In-Danger</label>
+              <label class="radio"><input type="radio" name="level" value="yes">Yes</label>
+              <label class="radio"><input type="radio" name="level" value="maybe">Maybe</label>
+              <label class="radio"><input type="radio" name="level" value="no">No</label>
+            </fieldset>
+            <fieldset class="addtl-info">
+              <legend>Additional Information</legend>
+              <label class="info">Is there anything else you wish to tell us?<textarea id="comments"
+                  name="comments"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Send Report" class="submitBtn">
         </div>
-        <div class="information">
-        <h3>Additional Information</h3>
-        <label class="info">Send us any message for more details.<textarea id="comments" name="comments"></textarea></label>
-        </div>
-      <input type="submit" value="Report Storm" class="submitBtn">
-    </form>
+        </form>
     </main>
   </div>
   <footer>
@@ -128,8 +134,8 @@
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script>
-  WebFont.load({google: {families: ['Encode Sans Expanded:500', 'Noto Sans Display:400']}});
-</script>
+    WebFont.load({ google: { families: ['Encode Sans Expanded:500', 'Noto Sans Display:400'] } });
+  </script>
 </body>
 
 </html>
