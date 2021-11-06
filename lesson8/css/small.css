@@ -322,6 +322,12 @@ label.radio input {
   margin: .3rem;
 }
 
+input[type="radio"] {
+  height: 20px;
+  width: 20px;
+
+}
+
 textarea {
   width: 90%;
   height: 300px;
