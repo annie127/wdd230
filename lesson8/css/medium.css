@@ -96,6 +96,12 @@
 
 /* ------------------------------------ Storm Center Page -------------------------------- */
 
+.form-body{
+	background-image: url("../images/storm-report.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;  
+  }
 
 legend {
 

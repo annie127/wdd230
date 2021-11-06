@@ -270,17 +270,7 @@ main figure {
 /* ------------------------------------ Storm Center CSS -------------------------------- */
 
 
-.form-body{
-  background-image: url("../images/storm-report.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;  
-}
 
-
-picture{
-  display: none;
-}
 
 form {
   font-size: 16px;
