@@ -291,10 +291,10 @@ fieldset{
 legend {
   margin: 0;
   font-size: 1rem;
-  background-color: #097c91;
-  color: white;
+  background-color:#8feafa;
+  color: black;
   padding: .5rem;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 label.contact, label.storm, label.info {
