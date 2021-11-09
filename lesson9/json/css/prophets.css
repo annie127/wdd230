@@ -1,0 +1,99 @@
+
+body {
+    max-width: 1270px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  main {
+    background-color: rgb(220, 220, 245);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: 1rem 0;
+    padding: .3rem 0;
+  }
+  
+  h1, h2{
+      font-family: 'Modern Antiqua', sans-serif;
+      color: rgb(44, 13, 41);
+      font-size: 1.5rem;
+  }
+
+  p {
+     font-family: 'Carme', sans-serif;
+     font-size: 1.2rem;
+  }
+
+  section {
+    border-style: solid;
+    border-color: rgb(134, 85, 131);
+    background-color: rgb(212, 179, 210);
+    margin: .8rem;
+    padding-bottom: .8rem;
+  }
+
+  img {
+      max-width: 70%;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  }
+ 
+  footer {
+      margin: 1rem 0;
+  }
+
+@media only screen and (min-width: 641px) and (max-width: 1007px){
+
+h1 {
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+}
+
+footer {
+    font-size: 1.3rem;
+}
+  }
+
+  @media only screen and (min-width: 1008px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 1.2rem;
+    }
+    
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0px;
+        padding: .8rem;
+    }
+
+    img {
+        max-width: 80%;
+    }
+
+    section {
+        margin: .3rem;
+    }
+    
+  }
+

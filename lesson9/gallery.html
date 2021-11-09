@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preston Idaho Weather | Gallery Photos | Idaho Weather Live </title>
+  <meta name="description" content="Browse through the latest weather photos from around Idaho.">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+  <script defer src="js/current-date.js"></script>
+  <script defer src="js/pancake.js"></script>
+  <script defer src="js/hamburger.js"></script>
+  <script defer src="js/lazyload.js"></script>
+  <script defer src="js/visits.js"></script>
+</head>
+<body onLoad="setDiv()">
+  <div id="alert-banner">
+    <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+  </div>
+  <div id="whole-screen">
+    <header>
+      <figure><img src="images/idaho-website-logo.png" alt="site-logo"></figure>
+      <section class="headings">
+        <h1>Idaho Weather Live</h1>
+        <div id="motto">Your trusted weather source, "weather" you like it or not</div>
+      </section>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a class="ham-menu" href="#"><img src="images/menu-icon.svg" alt="hamburger icon"></a></li>
+        <li><a href="#">HOME</a></li>
+        <li><a href="../lesson8/preston-6.html">PRESTON</a></li>
+        <li><a href="#">SODA SPRINGS</a></li>
+        <li><a href="#">FISH HAVEN</a></li>
+        <li><a href="../lesson8/stormcenter.html">STORM CENTER</a></li>
+        <li class="active"><a href="../lesson8/gallery-7.html">GALLERY</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="content">
+    <main>
+        <h2>Gallery of Photos</h2>
+        <p class="welcome"> <span id="visits"></span></p>
+        <div class="gallery">
+        <figure class="image1"><img src='images/placeholder-gallery.png' data-src='images/fog.jpeg' alt='foggy forest'>
+            <figcaption>Fog in the forest of Soda Springs</figcaption>
+        </figure>
+        <figure class="image2"><img src='images/placeholder-gallery.png' data-src='images/lightning.jpeg' alt='lightning over the city'>
+            <figcaption>A flash in the sky of Preston</figcaption>
+        </figure>
+        <figure class="image3"><img src='images/placeholder-gallery.png' data-src='images/rain.jpeg' alt='pouring rain'>
+            <figcaption>Rainy Day in Fish Haven</figcaption>
+        </figure>
+        <figure class="image4"><img src='images/placeholder-gallery.png' data-src='images/rainbow.jpeg' alt="rainbow and forest">
+            <figcaption>Rainbow over a mountain in Soda Springs</figcaption>
+        </figure>
+        <figure class="image5"><img src='images/placeholder-gallery.png' data-src='images/snow.jpeg' alt='snowy forest'>
+            <figcaption>A hiker in a snow-covered forest in Preston</figcaption>
+        </figure>
+        <figure class="image6"><img src='images/placeholder-gallery.png' data-src='images/snowy.jpeg' alt='snow falling on the umbrella'>
+            <figcaption>Snowy day in Preston</figcaption>
+        </figure>
+        <figure class="image7"><img src='images/placeholder-gallery.png' data-src='images/starry.jpeg' alt='sky full of stars'>
+            <figcaption>Starry night in Fish Haven</figcaption>
+        </figure>
+        <figure class="image8"><img src='images/placeholder-gallery.png' data-src='images/storm.jpeg' alt='dark clouds'>
+            <figcaption>Ominous storm over Soda Springs</figcaption>
+        </figure>
+        <figure class="image9"><img src='images/placeholder-gallery.png' data-src='images/tornado.jpeg' alt='dark clouds and tornado'>
+            <figcaption>Tornado touching ground in Preston</figcaption>
+        </figure>
+    </div>
+    </main>
+  </div>
+  
+  <footer>
+    <div class="contact-info">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11841.698104891779!2d-111.881348!3d42.098378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7932559073d%3A0x2bba18d652e675bf!2sW%201st%20N%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1634308418883!5m2!1sen!2sph"
+          width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="contacts">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Idaho Weather Live <br>
+          📍W 1st N <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preston, ID 83263, USA</p>
+        <p>📞 123 446 7896 <br>
+          ✉️ idahoweatherlive.com</p>
+        <img src="images/fb-icon.png" alt="facebook icon"> <span><img src="images/insta-icon.png" alt="instagram icon">
+        </span><span><img src="images/messenger-icon.png" alt="messenger icon"> </span><span><img
+            src="images/twitter-icon.png" alt="twitter icon"> </span>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <p>&copy; Idaho Weather Live | Attributions | Annie Hawley <br>
+        <span id="current-date"></span>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({ google: { families: ['Encode Sans Expanded:500', 'Noto Sans Display:400'] } });
+  </script>
+</body>
+
+</html>
