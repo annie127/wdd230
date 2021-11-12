@@ -15,8 +15,18 @@ body {
   
   h1, h2{
       font-family: 'Modern Antiqua', sans-serif;
-      color: rgb(44, 13, 41);
       font-size: 1.5rem;
+  }
+
+  h2 {
+      color: rgb(44, 13, 41);
+  }
+
+  h1, footer {
+      background-color: #422242;
+      padding: 1rem 0;
+      color: white;
+
   }
 
   p {
