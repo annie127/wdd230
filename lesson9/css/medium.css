@@ -53,7 +53,7 @@
 	   font-size: 20px;
 	 }
 	 
-	 .main-article img{
+	 .preston-article img{
 	   float: right;
 	   margin-left: 15px;
 	   margin-bottom: 15px;
@@ -82,7 +82,7 @@
 
 
 
-/* gallery page css */
+/* ------------------------------------ Gallery page -------------------------------- */
 
 .gallery {
 	display: grid;
@@ -121,5 +121,57 @@ main p.thanks {
 	margin-bottom: 200px;
 	font-family: 'Noto Sans Display', sans-serif;
   }
+
+
+  /* ------------------------------------ Homepage -------------------------------- */
+
+.main-article figure {
+	max-width: 100%;
+	float: right;
+	margin-left: 10px;
+}
+
+.main-article figcaption{
+	text-align: right;
+}
+
+.center-para {
+	font-size: 20px;
+}
+
+h2 {text-align:center;}
+
+.town-data {
+	padding: 30px 30px;
+  }
+
+
+.town-data section {
+	border:1px solid #bbb;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	padding: 0;
+}
+
+.town-data section:nth-child(odd) img {
+	grid-column: 2;
+}
+
+.town-data section:nth-child(odd) .town-info {
+	grid-column: 1;
+	grid-row: 1;
+}
+
+.town-data img {
+	max-width: 100%;
+	height: auto;
+	padding:0;
+}
+
+.town-info h3{
+	font-size: 22px;
+}
+
 
 }
