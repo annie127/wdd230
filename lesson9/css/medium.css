@@ -143,15 +143,15 @@ h2 {text-align:center;}
 
 .town-data {
 	padding: 30px 30px;
+	
   }
-
 
 .town-data section {
 	border:1px solid #bbb;
+	padding: 0 0 20px 20px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 10px;
-	padding: 0;
 }
 
 .town-data section:nth-child(odd) img {
@@ -173,5 +173,11 @@ h2 {text-align:center;}
 	font-size: 22px;
 }
 
-
+.town-data section p:first-of-type {
+	font-style: italic;
+	line-height: 25px;
+  margin-top: 5px;
+  color: #056a7c;
+  font-size: 18px;
+}
 }
