@@ -173,7 +173,7 @@ h2 {text-align:center;}
 	font-size: 22px;
 }
 
-.town-data section p:first-of-type {
+.town-data section h4 {
 	font-style: italic;
 	line-height: 25px;
   margin-top: 5px;

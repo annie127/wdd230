@@ -168,7 +168,7 @@ legend {
 	font-size: 18px;
 }
 
-.town-data section p:first-of-type {
+.town-data section h4 {
 	font-style: italic;
 	line-height: 20px;
 	margin-top: 10px;

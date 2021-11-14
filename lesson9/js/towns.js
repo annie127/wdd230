@@ -9,19 +9,25 @@ fetch(requestURL)
       const towns = jsonObject['towns'];
 
       const threeTowns = towns.filter((towns) => towns.name === 'Soda Springs' || towns.name === 'Fish Haven' || towns.name === 'Preston');
+      
+      threeTowns.sort(function(a, b) {
+        return parseFloat(b.currentPopulation) - parseFloat(a.currentPopulation);
+    });
+
+
       threeTowns.forEach((xtown) => {
 
         let townCard = document.createElement('section');
         let div = document.createElement('div');
         let image = document.createElement('img');
         let name = document.createElement('h3');
-        let motto = document.createElement('p');
+        let motto = document.createElement('h4');
         let year = document.createElement('p');
         let pop = document.createElement('p');
         let rain = document.createElement('p');
 
         image.setAttribute('src', `images/${xtown.photo}`);
-        image.setAttribute('alt', `${xtown.name} - image`);
+        image.setAttribute('alt', `nature photo in ${xtown.name}`);
         div.className = 'town-info';
         name.textContent = `${xtown.name}`;
         motto.textContent = `${xtown.motto}`;
