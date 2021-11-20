@@ -19,7 +19,7 @@ function CheckDay(day){
 
 //Get the temperatures, icons and description for the next 5 days
 
-var forecastAPI = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&exclude=minutely,hourly,alerts&units=imperial&appid=acc0c305e326e6d9f1226a549bc67124'
+var forecastAPI = '//api.openweathermap.org/data/2.5/forecast?id=5604473&exclude=minutely,hourly,alerts&units=imperial&appid=acc0c305e326e6d9f1226a549bc67124'
 
 fetch(forecastAPI)
   .then((response) => response.json())
