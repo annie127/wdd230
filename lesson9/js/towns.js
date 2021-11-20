@@ -8,7 +8,7 @@ fetch(requestURL)
      // console.table(jsonObject);
       const towns = jsonObject['towns'];
 
-      const threeTowns = towns.filter((towns) => towns.name === 'Soda Springs' || towns.name === 'Fish Haven' || towns.name === 'Preston');
+      const threeTowns = towns.filter((towns) => towns.name === 'Preston' || towns.name === 'Soda Springs' || towns.name === 'Fish Haven');
       
       threeTowns.sort(function(a, b) {
         return parseFloat(b.currentPopulation) - parseFloat(a.currentPopulation);
