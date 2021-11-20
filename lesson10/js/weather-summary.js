@@ -1,4 +1,4 @@
-var apiURL = '//api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=acc0c305e326e6d9f1226a549bc67124'
+var apiURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=acc0c305e326e6d9f1226a549bc67124'
 
 fetch(apiURL)
   .then((response) => response.json())
