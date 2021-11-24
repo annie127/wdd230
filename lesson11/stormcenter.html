@@ -46,62 +46,62 @@
       <h2>Report A Storm</h2>
       <div class="form-body">
         <form method="get" action="thanks.html" onsubmit="return confirm('Are you sure you want to send your report?')">
-            <fieldset>
-              <legend>Contact Information</legend>
-              <label class="contact">Full Name*<input type="text" name="fullname" pattern="[^0-9]{5,}" required></label>
-              <label class="contact">Email <input type="email" name="email" placeholder="myemail@gmail.com"></label>
-              <label class="contact">Phone* <input type="tel" name="phone" required></label>
-              <label class="contact">Zip Code* <input type="number" name="code" required></label>
-            </fieldset>
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label class="contact">Full Name*<input type="text" name="fullname" pattern="[^0-9]{5,}" required></label>
+            <label class="contact">Email <input type="email" name="email" placeholder="myemail@gmail.com"></label>
+            <label class="contact">Phone* <input type="tel" name="phone" required></label>
+            <label class="contact">Zip Code* <input type="number" name="code" required></label>
+          </fieldset>
 
-            <fieldset>
-              <legend>Storm Information</legend>
-              <label class="storm">Date<input type="date" name="stormDate"></label>
-              <label class="storm">Type <input name="storm" list="stormType"></label>
-              <datalist id="stormType">
-                <option value="Flash Flood">
-                <option value="Hail">
-                <option value="Hurricane">
-                <option value="Thunderstorm">
-                <option value="Tornado">
-              </datalist>
-              <label class="storm" for="rating">Rating
-                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
-                  oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                <span id="ratingvalue">5</span>
-              </label>
-              <datalist id="tickmarks">
-                <option value="0">
-                <option value="1">
-                <option value="2">
-                <option value="3">
-                <option value="4">
-                <option value="5">
-                <option value="6">
-                <option value="7">
-                <option value="8">
-                <option value="9">
-                <option value="10">
-              </datalist>
-              <label class="storm"> Region
-                <select name="region">
-                  <option value="region">Select Region</option>
-                  <option value="preston">Preston</option>
-                  <option value="sodasprings">Soda Springs</option>
-                  <option value="fishhaven">Fish Haven</option>
-                </select>
-              </label>
-              <label class="storm">User In-Danger</label>
-              <label class="radio"><input type="radio" name="level" value="yes">Yes</label>
-              <label class="radio"><input type="radio" name="level" value="maybe">Maybe</label>
-              <label class="radio"><input type="radio" name="level" value="no">No</label>
-            </fieldset>
-            <fieldset class="addtl-info">
-              <legend>Additional Information</legend>
-              <label class="info">Is there anything else you wish to tell us?<textarea id="comments"
-                  name="comments"></textarea></label>
-            </fieldset>
-            <input type="submit" value="Send Report" class="submitBtn">
+          <fieldset>
+            <legend>Storm Information</legend>
+            <label class="storm">Date<input type="date" name="stormDate"></label>
+            <label class="storm">Type <input name="storm" list="stormType"></label>
+            <datalist id="stormType">
+              <option value="Flash Flood">
+              <option value="Hail">
+              <option value="Hurricane">
+              <option value="Thunderstorm">
+              <option value="Tornado">
+            </datalist>
+            <label class="storm" for="rating">Rating
+              <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+              <span id="ratingvalue">5</span>
+            </label>
+            <datalist id="tickmarks">
+              <option value="0">
+              <option value="1">
+              <option value="2">
+              <option value="3">
+              <option value="4">
+              <option value="5">
+              <option value="6">
+              <option value="7">
+              <option value="8">
+              <option value="9">
+              <option value="10">
+            </datalist>
+            <label class="storm"> Region
+              <select name="region">
+                <option value="region">Select Region</option>
+                <option value="preston">Preston</option>
+                <option value="sodasprings">Soda Springs</option>
+                <option value="fishhaven">Fish Haven</option>
+              </select>
+            </label>
+            <label class="storm">User In-Danger</label>
+            <label class="radio"><input type="radio" name="level" value="yes">Yes</label>
+            <label class="radio"><input type="radio" name="level" value="maybe">Maybe</label>
+            <label class="radio"><input type="radio" name="level" value="no">No</label>
+          </fieldset>
+          <fieldset class="addtl-info">
+            <legend>Additional Information</legend>
+            <label class="info">Is there anything else you wish to tell us?<textarea id="comments"
+                name="comments"></textarea></label>
+          </fieldset>
+          <input type="submit" value="Send Report" class="submitBtn">
         </form>
       </div>
     </main>
@@ -110,8 +110,8 @@
     <div class="contact-info">
       <div class="map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11841.698104891779!2d-111.881348!3d42.098378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7932559073d%3A0x2bba18d652e675bf!2sW%201st%20N%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1634308418883!5m2!1sen!2sph"
-          width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.4243367055224!2d-111.88353688442952!3d42.09838205957897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7932559073d%3A0x2bba18d652e675bf!2sW%201st%20N%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1637767363533!5m2!1sen!2sph"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
       <div class="contacts">
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Idaho Weather Live <br>
@@ -125,8 +125,10 @@
       </div>
     </div>
     <div class="footer-bar">
-      <p>&copy; <span id="current-year"></span> Idaho Weather Live | <a href="../lesson10/attributions.html">Attributions</a> | Annie Hawley <br>
-        <span id="current-date"></span></p>
+      <p>&copy; <span id="current-year"></span> Idaho Weather Live | <a
+          href="../lesson10/attributions.html">Attributions</a> | Annie Hawley <br>
+        <span id="current-date"></span>
+      </p>
     </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
