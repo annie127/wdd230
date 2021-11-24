@@ -15,9 +15,9 @@
   <script defer src="js/current-year.js"></script>
   <script defer src="js/pancake.js"></script>
   <script defer src="js/hamburger.js"></script>
-  <script defer src="js/windchill.js"></script>
-  <script defer src="js/weather-summary.js"></script>
-  <script defer src="js/forecast.js"></script>
+  <script defer src="js/weather-summary-preston.js"></script>
+  <script defer src="js/forecast-preston.js"></script>
+  <script defer src="js/preston-events.js"></script>
 </head>
 
 <body onLoad="setDiv()">
@@ -37,7 +37,7 @@
         <li><a class="ham-menu" href="#"><img src="images/menu-icon.svg" alt="hamburger icon"></a></li>
         <li><a href="../lesson11/index.html">HOME</a></li>
         <li class="active"><a href="../lesson11/preston.html">PRESTON</a></li>
-        <li><a href="#">SODA SPRINGS</a></li>
+        <li><a href="../lesson11/soda-springs.html">SODA SPRINGS</a></li>
         <li><a href="#">FISH HAVEN</a></li>
         <li><a href="../lesson11/stormcenter.html">STORM CENTER</a></li>
         <li><a href="../lesson11/gallery.html">GALLERY</a></li>
@@ -46,7 +46,7 @@
   </div>
   <div id="content">
     <main>
-      <h2>Preston, Idaho</h2>
+      <h2>Preston Idaho</h2>
       <div class="main-image">
         <picture>
           <source media="(min-width: 641px) and (max-width: 1007px)" srcset="images/preston-image-medium.jpeg">
@@ -56,9 +56,9 @@
         <section class="weather-summary">
           <h3>Weather Summary</h3>
           <p class="label">Currently:</p>
-          <p class="value"><span id="description"></span> <span id="current"></span> &deg;F</p>
-          <p class="label">High:</p>
-          <p class="value"><span id="high"></span> &deg;F</p>
+          <p class="value"><span id="description"></span></p>
+          <p class="label">Temperature:</p>
+          <p class="value"><span id="temp"></span> &deg;F</p>
           <p class="label">Wind Chill:</p>
           <p class="value"><span id="wind"></span></p>
           <p class="label">Humidity:</p>
@@ -68,33 +68,40 @@
         </section>
       </div>
 
-      <h2>5-Day Forecast<br><span id="subtitle">(every 6pm)</span></h2>
-      <div id="forecast">
-        <div class="days">
-          <p class="weekday" id="day1"></p>
-          <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img1"></p>
-          <p class="current-temp"><span id="day1Temp"></span> &deg;F</p>
+      <div id="weather-forecast">
+        <h3>5-Day Forecast<br><span id="subtitle">(every 6pm)</span></h3>
+        <div id="forecast">
+          <div class="days">
+            <p class="weekday" id="day1"></p>
+            <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img1"></p>
+            <p class="current-temp"><span id="day1Temp"></span> &deg;F</p>
+          </div>
+          <div class="days">
+            <p class="weekday" id="day2"></p>
+            <p class="icon"> <img src="./images/placeholder-icon.png" alt="" id="img2"></p>
+            <p class="current-temp"><span id="day2Temp"></span> &deg;F</p>
+          </div>
+          <div class="days">
+            <p class="weekday" id="day3"></p>
+            <p class="icon"> <img src="./images/placeholder-icon.png" alt="" id="img3"></p>
+            <p class="current-temp"><span id="day3Temp"></span> &deg;F</p>
+          </div>
+          <div class="days">
+            <p class="weekday" id="day4"></p>
+            <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img4"></p>
+            <p class="current-temp"><span id="day4Temp"></span> &deg;F</p>
+          </div>
+          <div class="days">
+            <p class="weekday" id="day5"></p>
+            <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img5"></p>
+            <p class="current-temp"><span id="day5Temp"></span> &deg;F</p>
+          </div>
         </div>
-        <div class="days">
-          <p class="weekday" id="day2"></p>
-          <p class="icon"> <img src="./images/placeholder-icon.png" alt="" id="img2"></p>
-          <p class="current-temp"><span id="day2Temp"></span> &deg;F</p>
-        </div>
-        <div class="days">
-          <p class="weekday" id="day3"></p>
-          <p class="icon"> <img src="./images/placeholder-icon.png" alt="" id="img3"></p>
-          <p class="current-temp"><span id="day3Temp"></span> &deg;F</p>
-        </div>
-        <div class="days">
-          <p class="weekday" id="day4"></p>
-          <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img4"></p>
-          <p class="current-temp"><span id="day4Temp"></span> &deg;F</p>
-        </div>
-        <div class="days">
-          <p class="weekday" id="day5"></p>
-          <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img5"></p>
-          <p class="current-temp"><span id="day5Temp"></span> &deg;F</p>
-        </div>
+      </div>
+
+      <div class="upcoming-events">
+        <h3>Upcoming Events</h3>
+        <p id="preston-events"></p>
       </div>
 
       <article class="preston-article">
@@ -121,12 +128,12 @@
           Children’s Parade. There are also fireworks and a parade Saturday evening. (by Saundra Hubbard from the
           Preston Citizen)</p>
 
-          <p class="source">
-            Source:
-            <a href="https://prestonchamber.org/community/recreation/" target="alt_blank">Preston Chamber</a>
+        <p class="source">
+          Source:
+          <a href="https://prestonchamber.org/community/recreation/" target="alt_blank">Preston Chamber</a>
         </p>
-        
-          
+
+
 
       </article>
     </main>

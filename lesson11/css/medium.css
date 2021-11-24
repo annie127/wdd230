@@ -53,6 +53,10 @@
 	 .weather-summary h3 {
 	   font-size: 20px;
 	 }
+
+	 .upcoming-events p  {
+		font-size: 20px;
+	 }
 	 
 	 .preston-article img{
 	   float: right;

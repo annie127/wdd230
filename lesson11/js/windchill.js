@@ -1,13 +1,18 @@
-let temp = parseFloat(document.querySelector('#current').textContent);
-let speed = parseFloat(document.querySelector('#speed').textContent);
+// Preston
 
-let windchill;
-if (temp <= 50 && speed > 3) {
-    f = 35.74 + (0.6215 * temp) - (35.75 * (speed ** 0.16))+ (0.4275 * temp * (speed ** 0.16));
-    windchill = `${f.toFixed(0)} \u00B0F`;
+let tempPreston = parseFloat(document.querySelector('#currentPreston').textContent);
+let speedPreston = parseFloat(document.querySelector('#speedPreston').textContent);
+
+let windchillPreston;
+if (tempPreston <= 50 && speedPreston > 3) {
+    f = 35.74 + (0.6215 * tempPreston) - (35.75 * (speedPreston ** 0.16))+ (0.4275 * tempPreston * (speedPreston ** 0.16));
+    windchillPreston = `${f.toFixed(0)} \u00B0F`;
 }
 else {
-    windchill = 'N/A';
+    windchillPreston = 'N/A';
 }
 
-document.querySelector('#wind').textContent = windchill;
+document.querySelector('#windPreston').textContent = windchillPreston;
+
+
+
