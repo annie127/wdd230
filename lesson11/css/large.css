@@ -56,11 +56,6 @@
 	   font-size: 20px;
 	 }
 	 
-	 .upcoming-events p  {
-		font-size: 20px;
-		line-height: 40px;
-	 }
-
 	 .preston-article img{
 	   float: right;
 	   margin-left: 15px;
@@ -90,7 +85,7 @@
 	 }
 
 	 .weekday {
-		font-size: 18px;
+		font-size: 20px;
 	  }
 
 	  .icon img{

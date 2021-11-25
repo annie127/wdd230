@@ -1,22 +1,38 @@
+// Weather summary
 
-// Preston weather summary
 
-var apiPreston = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=acc0c305e326e6d9f1226a549bc67124';
+var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=acc0c305e326e6d9f1226a549bc67124';
 
-fetch(apiPreston)
+fetch(apiUrl)
   .then((response) => response.json())
   .then((jsObject) => {
-    
-    document.getElementById('currentPreston').textContent = jsObject.main.temp.toFixed(0);
-    document.getElementById('descriptionPreston').textContent = jsObject.weather[0].description;
-    document.getElementById('descriptionPreston').style.textTransform = "capitalize";
-    document.getElementById('highPreston').textContent = jsObject.main.temp_max.toFixed(0);
-    document.getElementById('humidityPreston').textContent = jsObject.main.humidity;
-    document.getElementById('speedPreston').textContent = jsObject.wind.speed.toFixed(0);
+
+    const mytemp = jsObject.main.temp.toFixed(0);
+    const myspeed = jsObject.wind.speed.toFixed(0);
+    const mydescription = jsObject.weather[0].description;
+    const myhumidity = jsObject.main.humidity;
+
+    document.getElementById("temp").textContent = mytemp;
+    document.getElementById("speed").textContent = myspeed;
+    document.getElementById("description").textContent = mydescription;
+    document.getElementById("description").style.textTransform = "capitalize";
+    document.getElementById("humidity").textContent = myhumidity;
+
+
+    let windchill = "";
+    if (mytemp <= 50 && myspeed > 3) {
+      f =
+        35.74 +
+        0.6215 * mytemp -
+        35.75 * myspeed ** 0.16 +
+        0.4275 * mytemp * myspeed ** 0.16;
+      windchill = `${f.toFixed(0)} \u00B0F`;
+
+    } else {
+      windchill = "N/A";
+    }
+
+    document.querySelector("#wind").textContent = windchill;
   });
 
-  
 
-
-
-  

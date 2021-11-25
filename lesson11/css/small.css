@@ -107,17 +107,18 @@ nav ul li a:hover{
 	display: block;
 }
  
-main h2, .upcoming-events h3, #weather-forecast h3{
-  margin-top: 15px;
-  margin-bottom: 20px;
-  font-family: 'Encode Sans Expanded', sans-serif;
-  text-align: center;
-  padding: 10px;
-  text-shadow:3px 3px 5px rgb(218, 214, 218);
-  letter-spacing: 2px;
-  color: #11525e;
-  font-weight: 900;
-}
+ main h2{
+   margin-top: 15px;
+   margin-bottom: 20px;
+   font-family: 'Encode Sans Expanded', sans-serif;
+   text-align: center;
+   padding: 10px;
+   text-shadow:3px 3px 5px rgb(218, 214, 218);
+   letter-spacing: 2px;
+   font-size: 20px;
+   color: #11525e;
+   font-weight: 900;
+ }
 
  picture img {
   max-width: 100%;
@@ -168,12 +169,6 @@ main h2, .upcoming-events h3, #weather-forecast h3{
   margin: 10px;
 }
 
-#weather-forecast {
-  max-width: 700px;
-  margin: 0 auto;
-
-}
-
 #forecast {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -181,7 +176,6 @@ main h2, .upcoming-events h3, #weather-forecast h3{
   background-color:#eec2da;
   font-family: 'Noto Sans Display', sans-serif;
   line-height: 10px;
-  border: 2px solid rgb(165, 161, 161);
 }
 
 #subtitle {
@@ -190,36 +184,46 @@ main h2, .upcoming-events h3, #weather-forecast h3{
 
 .days:first-child {
   grid-column: 1/2;
+  border-bottom-style: groove;
+  border-left-style: groove;
+  border-top-style: groove;
 }
 
 .days:nth-child(2) {
   grid-column: 2/3;
-  border-left: 2px solid rgb(165, 161, 161);
-
+  border-bottom-style: groove;
+  border-left-style: groove;
+  border-top-style: groove;
 }
 
 .days:nth-child(3) {
   grid-column: 3/4;
-  border-left: 2px solid rgb(165, 161, 161);
+  border-left-style: groove;
+  border-bottom-style: groove;
+  border-right-style: groove;
+  border-top-style: groove;
 }
 
 .days:nth-child(4) {
   grid-column: 4/5;
-  border-left: 2px solid rgb(165, 161, 161);
+  border-bottom-style: groove;
+  border-right-style: groove;
+  border-top-style: groove;
 }
 
 .days:nth-child(5) {
   grid-column: 5/6;
-  border-left: 2px solid rgb(165, 161, 161);
+  border-bottom-style: groove;
+  border-right-style: groove;
+  border-top-style: groove;
 }
 
-.weekday, .current-temp{
+.weekday {
   background-color: #DDF4F8;
   padding: 15px 5px 15px 5px;
   margin-top: 0;
-  margin-bottom: 0;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .icon img{
@@ -228,23 +232,9 @@ main h2, .upcoming-events h3, #weather-forecast h3{
   height: auto;
 }
 
-
-.upcoming-events p {
-  max-width: 500px;
-  margin: 0 auto;
-  font-family: 'Noto Sans Display', sans-serif;
-  text-align: center;
-  line-height: 30px;
-  font-size: 17px;
-  background-color: #b6eef8;
-  border: 2px solid rgb(209, 202, 202);
-  padding: 20px;
+.current-temp {
   color: #830B4D;
-}
-
-.upcoming-events h3 {
-  margin-top: 30px;
-  margin-bottom: 20px;
+  font-size: 18px;
 }
 
 article {
