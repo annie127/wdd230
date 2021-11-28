@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preston Idaho Weather | Current News | Idaho Weather Live </title>
+  <meta name="description" content="Check out the latest weather and current happenings in Preston, Idaho.">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+  <script defer src="js/current-date.js"></script>
+  <script defer src="js/current-year.js"></script>
+  <script defer src="js/pancake.js"></script>
+  <script defer src="js/hamburger.js"></script>
+  <script defer src="js/weather-summary.js"></script>
+  <script defer src="js/forecast.js"></script>
+</head>
+
+<body onLoad="setDiv()">
+  <div id="alert-banner">
+    <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+  </div>
+  <div id="whole-screen">
+    <header>
+      <figure><img src="images/idaho-website-logo.png" alt="site-logo"></figure>
+      <section class="headings">
+        <h1>Idaho Weather Live</h1>
+        <div id="motto">Your trusted weather source, "weather" you like it or not</div>
+      </section>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a class="ham-menu" href="#"><img src="images/menu-icon.svg" alt="hamburger icon"></a></li>
+        <li><a href="../lesson11/index.html">HOME</a></li>
+        <li class="active"><a href="../lesson11/preston.html">PRESTON</a></li>
+        <li><a href="#">SODA SPRINGS</a></li>
+        <li><a href="#">FISH HAVEN</a></li>
+        <li><a href="../lesson11/stormcenter.html">STORM CENTER</a></li>
+        <li><a href="../lesson11/gallery.html">GALLERY</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="content">
+    <main>
+      <h2>Preston, Idaho</h2>
+      <div class="main-image">
+        <picture>
+          <source media="(min-width: 641px) and (max-width: 1007px)" srcset="images/preston-image-medium.jpeg">
+          <source media="(min-width: 1008px)" srcset="images/preston-image-large.jpg">
+          <img src="images/preston-image-small.jpeg" alt="sun shining over the mountain and field">
+        </picture>
+        <section class="weather-summary">
+          <h3>Weather Summary</h3>
+          <p class="label">Currently:</p>
+          <p class="value"><span id="description"></span></p>
+          <p class="label">Temperature:</p>
+          <p class="value"><span id="temp"></span> &deg;F</p>
+          <p class="label">Wind Chill:</p>
+          <p class="value"><span id="wind"></span></p>
+          <p class="label">Humidity:</p>
+          <p class="value"><span id="humidity"></span>%</p>
+          <p class="label">Wind Speed:</p>
+          <p class="value"><span id="speed"></span> mph</p>
+        </section>
+      </div>
+
+      <h2>5-Day Forecast<br><span id="subtitle">(every 6pm)</span></h2>
+      <div id="forecast">
+        <div class="days">
+          <p class="weekday" id="day1"></p>
+          <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img1"></p>
+          <p class="current-temp"><span id="day1Temp"></span> &deg;F</p>
+        </div>
+        <div class="days">
+          <p class="weekday" id="day2"></p>
+          <p class="icon"> <img src="./images/placeholder-icon.png" alt="" id="img2"></p>
+          <p class="current-temp"><span id="day2Temp"></span> &deg;F</p>
+        </div>
+        <div class="days">
+          <p class="weekday" id="day3"></p>
+          <p class="icon"> <img src="./images/placeholder-icon.png" alt="" id="img3"></p>
+          <p class="current-temp"><span id="day3Temp"></span> &deg;F</p>
+        </div>
+        <div class="days">
+          <p class="weekday" id="day4"></p>
+          <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img4"></p>
+          <p class="current-temp"><span id="day4Temp"></span> &deg;F</p>
+        </div>
+        <div class="days">
+          <p class="weekday" id="day5"></p>
+          <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img5"></p>
+          <p class="current-temp"><span id="day5Temp"></span> &deg;F</p>
+        </div>
+      </div>
+
+      <article class="preston-article">
+        <h3>What To Do In Preston All Year Round</h3>
+        <img src="images/preston-image2.jpeg" alt="children playing">
+        <p>Winter brings the best snow and the most beautiful winter scenery. Snowmobiling and cross country skiing is
+          great. You can travel down Mink Creek, Cub River, and even Logan Canyon and see the most beautiful winter
+          wonderland ever, ending up at Bloomington or Bear Lake. </p>
+
+        <p>Spring brings golfing at our 18-hole course, floating and kayaking down the beautiful Bear River, as well as
+          fishing, boating, water-skiing or just camping at our 10 reservoirs. There are three swimming resorts close by
+          and also a new swimming pool in town. </p>
+
+        <p>In June, the Elks Demolition Derby is in the arena. The next weekend, we leave Preston City and go south to
+          Franklin for Idaho Days, which is a celebration of the oldest city in Idaho, with a weekend of parades, games
+          and good food. On July 24, our rodeo arena becomes a lighted celebration with the Rotary Club’s Fireworks
+          Extravaganza, and the next weekend it’s That Famous Preston Night Rodeo, sidewalk sales, chuck wagon
+          breakfasts, and the biathlon. There’s team branding, team penning, team roping, and on Friday, something new
+          is being planned that will be fun for the whole family. Come Saturday, there’s the Famous Bull Bonanza and the
+          Wild Cow Milking Contest. August brings the Franklin County Fair, which is always full of things to do.</p>
+
+        <p>November is the month for the Festival of Lights, starting the day after Thanksgiving. Friday evening there
+          are fireworks and the Lighted Parade. On Saturday, we have the bed races down State Street, followed by the
+          Children’s Parade. There are also fireworks and a parade Saturday evening. (by Saundra Hubbard from the
+          Preston Citizen)</p>
+
+          <p class="source">
+            Source:
+            <a href="https://prestonchamber.org/community/recreation/" target="alt_blank">Preston Chamber</a>
+        </p>
+        
+          
+
+      </article>
+    </main>
+  </div>
+
+  <footer>
+    <div class="contact-info">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11841.698104891779!2d-111.881348!3d42.098378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7932559073d%3A0x2bba18d652e675bf!2sW%201st%20N%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1634308418883!5m2!1sen!2sph"
+          width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="contacts">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Idaho Weather Live <br>
+          📍W 1st N <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preston, ID 83263, USA</p>
+        <p>📞 123 446 7896 <br>
+          ✉️ idahoweatherlive.com</p>
+        <img src="images/fb-icon.png" alt="facebook icon"> <span><img src="images/insta-icon.png" alt="instagram icon">
+        </span><span><img src="images/messenger-icon.png" alt="messenger icon"> </span><span><img
+            src="images/twitter-icon.png" alt="twitter icon"> </span>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <p>&copy; <span id="current-year"></span> Idaho Weather Live | <a
+          href="../lesson10/attributions.html">Attributions</a> | Annie Hawley <br>
+        <span id="current-date"></span>
+      </p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({ google: { families: ['Encode Sans Expanded:500', 'Noto Sans Display:400'] } });
+  </script>
+</body>
+
+</html>

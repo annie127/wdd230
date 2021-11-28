@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soda Springs Idaho Weather | Current Events | Idaho Weather Live </title>
+    <meta name="description" content="Check out the latest weather and current happenings in Soda Springs, Idaho.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/current-date.js"></script>
+    <script defer src="js/current-year.js"></script>
+    <script defer src="js/hamburger.js"></script>
+    <script defer src="js/weather-summary-soda.js"></script>
+    <script defer src="js/forecast-soda.js"></script>
+    <script defer src="js/events-soda.js"></script>
+</head>
+
+<body>
+    <div id="whole-screen">
+        <header>
+            <figure><img src="images/idaho-website-logo.png" alt="site-logo"></figure>
+            <section class="headings">
+                <h1>Idaho Weather Live</h1>
+                <div id="motto">Your trusted weather source, "weather" you like it or not</div>
+            </section>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham-menu" href="#"><img src="images/menu-icon.svg" alt="hamburger icon"></a></li>
+                <li><a href="../lesson111/index.html">HOME</a></li>
+                <li><a href="../lesson111/preston.html">PRESTON</a></li>
+                <li class="active"><a href="../lesson111/soda-springs.html">SODA SPRINGS</a></li>
+                <li><a href="../lesson111/fish-haven.html">FISH HAVEN</a></li>
+                <li><a href="../lesson111/stormcenter.html">STORM CENTER</a></li>
+                <li><a href="../lesson111/gallery.html">GALLERY</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="content">
+        <main>
+            <h2>Soda Springs Idaho</h2>
+            <div class="main-image">
+                <picture>
+                    <source media="(min-width: 641px) and (max-width: 1007px)" srcset="images/soda-springs-medium.jpeg">
+                    <source media="(min-width: 1008px)" srcset="images/soda-springs-large.jpeg">
+                    <img src="images/soda-springs-small.jpeg" alt="a farmhouse and a field">
+                </picture>
+                <section class="weather-summary">
+                    <h3>Weather Summary</h3>
+                    <p class="label">Currently:</p>
+                    <p class="value"><span id="description"></span></p>
+                    <p class="label">Temperature:</p>
+                    <p class="value"><span id="temp"></span> &deg;F</p>
+                    <p class="label">Wind Chill:</p>
+                    <p class="value"><span id="wind"></span></p>
+                    <p class="label">Humidity:</p>
+                    <p class="value"><span id="humidity"></span>%</p>
+                    <p class="label">Wind Speed:</p>
+                    <p class="value"><span id="speed"></span> mph</p>
+                </section>
+            </div>
+
+            <div id="weather-forecast">
+                <h3>5-Day Forecast<br><span id="subtitle">(every 6pm)</span></h3>
+                <div id="forecast">
+                    <div class="days">
+                        <p class="weekday" id="day1"></p>
+                        <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img1"></p>
+                        <p class="current-temp"><span id="day1Temp"></span> &deg;F</p>
+                    </div>
+                    <div class="days">
+                        <p class="weekday" id="day2"></p>
+                        <p class="icon"> <img src="./images/placeholder-icon.png" alt="" id="img2"></p>
+                        <p class="current-temp"><span id="day2Temp"></span> &deg;F</p>
+                    </div>
+                    <div class="days">
+                        <p class="weekday" id="day3"></p>
+                        <p class="icon"> <img src="./images/placeholder-icon.png" alt="" id="img3"></p>
+                        <p class="current-temp"><span id="day3Temp"></span> &deg;F</p>
+                    </div>
+                    <div class="days">
+                        <p class="weekday" id="day4"></p>
+                        <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img4"></p>
+                        <p class="current-temp"><span id="day4Temp"></span> &deg;F</p>
+                    </div>
+                    <div class="days">
+                        <p class="weekday" id="day5"></p>
+                        <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img5"></p>
+                        <p class="current-temp"><span id="day5Temp"></span> &deg;F</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="upcoming-events">
+                <h3>Upcoming Events</h3>
+                <p id="soda-events"></p>
+            </div>
+
+            <article class="town-article">
+                <h3>Recreational Activities in Soda Springs</h3>
+                <img src="images/soda-article-image.jpeg" alt="two men hiking">
+                <p>Soda Springs has an abundance of recreational opportunities for individuals and families. Sure many
+                    of the bigger cities have every store you could ever want within 20 minutes, but Soda Springs has
+                    something that other communities dream of; unlimited recreational opportunities all right in town or
+                    within 20 minutes of town! </p>
+
+                <p>Want to play golf or disc golf? We have a 9-hole golf course at the west entrance of town and an
+                    18-hole disc golf course 5 minutes from downtown on the east side of town. </p>
+
+                <p>Want to go camping? We have camping starting 15 minutes from town, with most camping being near a
+                    creek, river or reservoir.</p>
+
+                <p>Looking for a good walk or run with beautiful scenery? You have the option of a half a dozen or more
+                    paths that start right within the City and many rural roads that run along the mountains and
+                    surrounding reservoirs and creeks.</p>
+
+                <p>Looking for a leisure country drive? You can take a country drive less than 10 minutes from town with
+                    hours of back roads and beautiful scenery to take you on an adventure.</p>
+
+                <p>Looking for shopping opportunities? Soda Springs has many local businesses and vendors to take care
+                    of your every day needs with "big-city" shopping within an hour drive and some of the most beautiful
+                    views to accompany you on the drive.</p>
+
+                <p class="source">
+                    Source:
+                    <a href="https://www.sodaspringsid.com/recreation/index.php"
+                        target="alt_blank">sodaspringsid.com</a>
+                </p>
+
+
+
+            </article>
+        </main>
+    </div>
+
+    <footer>
+        <div class="contact-info">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.4243367055224!2d-111.88353688442952!3d42.09838205957897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7932559073d%3A0x2bba18d652e675bf!2sW%201st%20N%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1637767363533!5m2!1sen!2sph"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contacts">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Idaho Weather Live <br>
+                    📍W 1st N <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preston, ID 83263, USA</p>
+                <p>📞 123 446 7896 <br>
+                    ✉️ idahoweatherlive.com</p>
+                <img src="images/fb-icon.png" alt="facebook icon"> <span><img src="images/insta-icon.png"
+                        alt="instagram icon">
+                </span><span><img src="images/messenger-icon.png" alt="messenger icon"> </span><span><img
+                        src="images/twitter-icon.png" alt="twitter icon"> </span>
+            </div>
+        </div>
+        <div class="footer-bar">
+            <p>&copy; <span id="current-year"></span> Idaho Weather Live | <a
+                    href="../lesson111/attributions.html">Attributions</a> | Annie Hawley <br>
+                <span id="current-date"></span>
+            </p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({ google: { families: ['Encode Sans Expanded:500', 'Noto Sans Display:400'] } });
+    </script>
+</body>
+
+</html>

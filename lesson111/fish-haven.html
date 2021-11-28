@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Haven Idaho Weather | Current Events | Idaho Weather Live </title>
+    <meta name="description" content="Check out the latest weather and current happenings in Fish Haven, Idaho.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/current-date.js"></script>
+    <script defer src="js/current-year.js"></script>
+    <script defer src="js/hamburger.js"></script>
+    <script defer src="js/weather-summary-fishhaven.js"></script>
+    <script defer src="js/forecast-fish-haven.js"></script>
+    <script defer src="js/events-fish-haven.js"></script>
+</head>
+
+<body>
+    <div id="whole-screen">
+        <header>
+            <figure><img src="images/idaho-website-logo.png" alt="site-logo"></figure>
+            <section class="headings">
+                <h1>Idaho Weather Live</h1>
+                <div id="motto">Your trusted weather source, "weather" you like it or not</div>
+            </section>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham-menu" href="#"><img src="images/menu-icon.svg" alt="hamburger icon"></a></li>
+                <li><a href="../lesson111/index.html">HOME</a></li>
+                <li><a href="../lesson111/preston.html">PRESTON</a></li>
+                <li><a href="../lesson111/soda-springs.html">SODA SPRINGS</a></li>
+                <li class="active"><a href="../lesson111/fish-haven.html">FISH HAVEN</a></li>
+                <li><a href="../lesson111/stormcenter.html">STORM CENTER</a></li>
+                <li><a href="../lesson111/gallery.html">GALLERY</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="content">
+        <main>
+            <h2>Fish Haven Idaho</h2>
+            <div class="main-image">
+                <picture>
+                    <source media="(min-width: 641px) and (max-width: 1007px)" srcset="images/fish-haven-medium.jpeg">
+                    <source media="(min-width: 1008px)" srcset="images/fish-haven-large.jpeg">
+                    <img src="images/fish-haven-small.jpeg" alt="a wooden boat deck on the lake">
+                </picture>
+                <section class="weather-summary">
+                    <h3>Weather Summary</h3>
+                    <p class="label">Currently:</p>
+                    <p class="value"><span id="description"></span></p>
+                    <p class="label">Temperature:</p>
+                    <p class="value"><span id="temp"></span> &deg;F</p>
+                    <p class="label">Wind Chill:</p>
+                    <p class="value"><span id="wind"></span></p>
+                    <p class="label">Humidity:</p>
+                    <p class="value"><span id="humidity"></span>%</p>
+                    <p class="label">Wind Speed:</p>
+                    <p class="value"><span id="speed"></span> mph</p>
+                </section>
+            </div>
+
+            <div id="weather-forecast">
+                <h3>5-Day Forecast<br><span id="subtitle">(every 6pm)</span></h3>
+                <div id="forecast">
+                    <div class="days">
+                        <p class="weekday" id="day1"></p>
+                        <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img1"></p>
+                        <p class="current-temp"><span id="day1Temp"></span> &deg;F</p>
+                    </div>
+                    <div class="days">
+                        <p class="weekday" id="day2"></p>
+                        <p class="icon"> <img src="./images/placeholder-icon.png" alt="" id="img2"></p>
+                        <p class="current-temp"><span id="day2Temp"></span> &deg;F</p>
+                    </div>
+                    <div class="days">
+                        <p class="weekday" id="day3"></p>
+                        <p class="icon"> <img src="./images/placeholder-icon.png" alt="" id="img3"></p>
+                        <p class="current-temp"><span id="day3Temp"></span> &deg;F</p>
+                    </div>
+                    <div class="days">
+                        <p class="weekday" id="day4"></p>
+                        <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img4"></p>
+                        <p class="current-temp"><span id="day4Temp"></span> &deg;F</p>
+                    </div>
+                    <div class="days">
+                        <p class="weekday" id="day5"></p>
+                        <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img5"></p>
+                        <p class="current-temp"><span id="day5Temp"></span> &deg;F</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="upcoming-events">
+                <h3>Upcoming Events</h3>
+                <p id="fish-haven-events"></p>
+            </div>
+
+            <article class="town-article">
+                <h3>Little Fish Haven, Idaho, is paradise for residents</h3>
+                <img src="images/fish-haven-article-img.jpeg" alt="two men fishing in the lake">
+                <p>It's an undiscovered paradise. Most people who drive by recognize the raw beauty of a place ringed by
+                    high desert mountains and bordered by the shores of a vast natural lake. </p>
+
+                <p>In winter the hills outside this small paradise echo with the sharp whine of snow machines and in the
+                    summer thousands of tourists ply the lake's bright blue waters with water skis or fishing poles.
+                </p>
+
+                <p>But they don't live there. It's different living in Fish Haven.</p>
+
+                <p>The little town sits just on the Idaho side of U.S. Highway 89 tucked in between Bear Lake's west
+                    side and the mountains.</p>
+
+                <p>It's not technically a city or a town, it's really nothing more than the proverbial wide spot in the
+                    road. But people call it a town even though there isn't a city council, just the Bear Lake County
+                    Commission that oversees development there.</p>
+
+                <p>Only 50 to 100 people call it home, depending on the weather.</p>
+
+                <p>Vic Tilt, co-owner of Gladys' Place, is one of the few year-around residents and said the population
+                    drops quickly when things get cold.</p>
+
+                <p>The winter evacuation isn't much of a worry for Tilt, 60, because his store is the only one around.
+                    The nearest other store is in Montpelier, about 45 minutes away.</p>
+
+                <p>Gladys' Place is also only a few minutes from the Utah border and has become quite a lottery spot.
+                    The little store is the third- and fourth-biggest lottery ticket seller in Idaho, selling about
+                    500,000 tickets a year.</p>
+
+                <p class="source">
+                    <a href="https://www.sodaspringsid.com/recreation/index.php" target="alt_blank">Read more here</a>
+                </p>
+
+
+
+            </article>
+        </main>
+    </div>
+
+    <footer>
+        <div class="contact-info">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.4243367055224!2d-111.88353688442952!3d42.09838205957897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7932559073d%3A0x2bba18d652e675bf!2sW%201st%20N%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1637767363533!5m2!1sen!2sph"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contacts">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Idaho Weather Live <br>
+                    📍W 1st N <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preston, ID 83263, USA</p>
+                <p>📞 123 446 7896 <br>
+                    ✉️ idahoweatherlive.com</p>
+                <img src="images/fb-icon.png" alt="facebook icon"> <span><img src="images/insta-icon.png"
+                        alt="instagram icon">
+                </span><span><img src="images/messenger-icon.png" alt="messenger icon"> </span><span><img
+                        src="images/twitter-icon.png" alt="twitter icon"> </span>
+            </div>
+        </div>
+        <div class="footer-bar">
+            <p>&copy; <span id="current-year"></span> Idaho Weather Live | <a
+                    href="../lesson111/attributions.html">Attributions</a> | Annie Hawley <br>
+                <span id="current-date"></span>
+            </p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({ google: { families: ['Encode Sans Expanded:500', 'Noto Sans Display:400'] } });
+    </script>
+</body>
+
+</html>
