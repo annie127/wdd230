@@ -36,8 +36,8 @@ header img {
 }
 
 .headings h1 {
-	font-size: 1.4rem;
-  margin: 0 0 0 17px;
+	font-size: 1.2rem;
+  margin: 0 5px 0 5px;
   line-height: 40px;
 }
 
@@ -45,8 +45,8 @@ header img {
 	font-style: italic;
 	letter-spacing: 1pt;
 	color: #fff;
-	margin-left: 20px;
-  font-size: 14px;
+	margin-left: 5px;
+  font-size: 12px;
 }
 
 .footer-bar {
