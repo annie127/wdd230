@@ -1,7 +1,5 @@
 
-//using city id for soda springs and your appid copied from your code.
-var apiUrl =
-  "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&appid=acc0c305e326e6d9f1226a549bc67124";
+var apiUrl = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&appid=acc0c305e326e6d9f1226a549bc67124";
 
 fetch(apiUrl)
   .then((response) => response.json())
@@ -19,13 +17,9 @@ fetch(apiUrl)
     document.getElementById("humidity").textContent = myhumidity;
 
 
-    let windchill = "";
+    let windchill;
     if (mytemp <= 50 && myspeed > 3) {
-      f =
-        35.74 +
-        0.6215 * mytemp -
-        35.75 * myspeed ** 0.16 +
-        0.4275 * mytemp * myspeed ** 0.16;
+      f = 35.74 + 0.6215 * mytemp - 35.75 * myspeed ** 0.16 + 0.4275 * mytemp * myspeed ** 0.16;
       windchill = `${f.toFixed(0)} \u00B0F`;
 
     } else {

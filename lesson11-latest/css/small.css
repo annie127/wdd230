@@ -419,8 +419,11 @@ main p.thanks {
 /* ------------------------------------ Attributions Page -------------------------------- */
 
 #attributions {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 100px;
+  font-family: 'Noto Sans Display', sans-serif;
+  line-height: 30px;
+
 }
 
 

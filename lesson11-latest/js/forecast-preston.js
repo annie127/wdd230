@@ -25,7 +25,7 @@ fetch(forecastAPI)
   .then((response) => response.json())
   .then((jsObject) => {
       const time = jsObject.list.filter(t => t.dt_txt.includes('18:00:00'));
-      console.log(time);
+      //console.log(time);
       
       for (i = 0; i < time.length; i++) {
           const desc = time[i].weather[0].description;
