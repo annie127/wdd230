@@ -24,7 +24,7 @@ var forecastAPI = 'https://api.openweathermap.org/data/2.5/forecast?lat=42.03687
 fetch(forecastAPI)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+    //console.log(jsObject);
 
       const time = jsObject.list.filter(t => t.dt_txt.includes('18:00:00'));
       
