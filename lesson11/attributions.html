@@ -12,17 +12,14 @@
   <link rel="stylesheet" href="css/medium.css" />
   <link rel="stylesheet" href="css/large.css" />
   <script defer src="js/current-date.js"></script>
-  <script defer src="js/pancake.js"></script>
+  <script defer src="js/current-year.js"></script>
   <script defer src="js/hamburger.js"></script>
-  <script defer src="js/lazyload.js"></script>
-  <script defer src="js/visits.js"></script>
-  <script defer src="js/slider.js"></script>
 </head>
 
 <body>
   <div id="whole-screen">
     <header>
-      <figure><img src="images/idaho-website-logo.png" alt="site-logo"></figure>
+      <figure><a href="..//lesson11/index.html"><img src="images/idaho-website-logo.png" alt="site-logo"></a> </figure>
       <section class="headings">
         <h1>Idaho Weather Live</h1>
         <div id="motto">Your trusted weather source, "weather" you like it or not</div>
@@ -33,19 +30,31 @@
         <li><a class="ham-menu" href="#"><img src="images/menu-icon.svg" alt="hamburger icon"></a></li>
         <li><a href="../lesson11/index.html">HOME</a></li>
         <li><a href="../lesson11/preston.html">PRESTON</a></li>
-        <li><a href="#">SODA SPRINGS</a></li>
-        <li><a href="#">FISH HAVEN</a></li>
-        <li class="active"><a href="../lesson11/stormcenter.html">STORM CENTER</a></li>
+        <li><a href="../lesson11/soda-springs.html">SODA SPRINGS</a></li>
+        <li><a href="../lesson11/fish-haven.html">FISH HAVEN</a></li>
+        <li><a href="../lesson11/stormcenter.html">STORM CENTER</a></li>
         <li><a href="../lesson11/gallery.html">GALLERY</a></li>
       </ul>
     </nav>
   </div>
   <div id="content">
     <main id="attributions">
-      <ul><li>Weather data by <a href="https://openweathermap.org/">OpenWeatherMap</a></li>
-        <li>Idaho article by <a href="https://www.britannica.com/place/Idaho/Climate/">Britannica</a></li></li>
-        <li>Idaho Map by <a href="http://www.idgenweb.org/archives/maps-idaho-usa.html">Idgenweb</a></li></li>
-        <li>Preston article by <a href="https://prestonchamber.org/community/recreation/">Preston Chamber</a></li></li>
+      <ul>
+        <li>Weather data by <a href="https://openweathermap.org/" target="alt_blank">OpenWeatherMap</a></li>
+        <li>Idaho article by <a href="https://www.britannica.com/place/Idaho/Climate/" target="alt_blank">Britannica</a>
+        </li>
+        </li>
+        <li>Idaho Map by <a href="http://www.idgenweb.org/archives/maps-idaho-usa.html" target="alt_blank">Idgenweb</a>
+        </li>
+        </li>
+        <li>Preston article by <a href="https://prestonchamber.org/community/recreation/" target="alt_blank">Preston
+            Chamber</a></li>
+        </li>
+        <li>Fish Haven article by <a
+            href="https://www.deseret.com/2000/12/26/19546274/little-fish-haven-idaho-is-paradise-for-residents"
+            target="alt_blank">Deseret News</a></li>
+        <li>Soda Springs article by <a href="https://www.sodaspringsid.com/recreation/index.php"
+            target="alt_blank">sodaspringsid.com</a></li>
       </ul>
 
     </main>
@@ -54,9 +63,7 @@
   <footer>
     <div class="contact-info">
       <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11841.698104891779!2d-111.881348!3d42.098378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7932559073d%3A0x2bba18d652e675bf!2sW%201st%20N%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1634308418883!5m2!1sen!2sph"
-          width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <img src="images/company-map.png" alt="map of preston" />
       </div>
       <div class="contacts">
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Idaho Weather Live <br>
@@ -64,14 +71,21 @@
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preston, ID 83263, USA</p>
         <p>📞 123 446 7896 <br>
           ✉️ idahoweatherlive.com</p>
-        <img src="images/fb-icon.png" alt="facebook icon"> <span><img src="images/insta-icon.png" alt="instagram icon">
-        </span><span><img src="images/messenger-icon.png" alt="messenger icon"> </span><span><img
-            src="images/twitter-icon.png" alt="twitter icon"> </span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com" target="alt_blank"><img
+            src="images/fb-icon.png" alt="facebook icon" /></a> &nbsp;&nbsp;&nbsp;
+        <span><a href="https://www.instagram.com/" target="alt_blank"><img src="images/insta-icon.png"
+              alt="instagram icon" /></a> </span>&nbsp;&nbsp;&nbsp;<span><a href="https://www.messenger.com"
+            target="alt_blank"><img src="images/messenger-icon.png" alt="messenger icon" />
+          </a></span>&nbsp;&nbsp;&nbsp;<span><a href="https://twitter.com/" target="alt_blank"><img
+              src="images/twitter-icon.png" alt="twitter icon" /></a>
+        </span>
       </div>
     </div>
     <div class="footer-bar">
-      <p>&copy; <span id="current-year"></span> Idaho Weather Live | <a href="../lesson10/attributions.html">Attributions</a>  | Annie Hawley <br>
-        <span id="current-date"></span></p>
+      <p>&copy; <span id="current-year"></span> Idaho Weather Live | <a
+          href="../lesson11/attributions.html">Attributions</a> | Annie Hawley <br>
+        <span id="current-date"></span>
+      </p>
     </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

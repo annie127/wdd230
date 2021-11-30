@@ -33,7 +33,7 @@ fetch(requestURL)
         motto.textContent = `${xtown.motto}`;
         year.textContent = `Year Founded: ${xtown.yearFounded}`;
         pop.textContent = `Population: ${xtown.currentPopulation}`;
-        rain.textContent = `Annual Rain Fall ${xtown.averageRainfall}`;
+        rain.textContent = `Annual Rain Fall: ${xtown.averageRainfall}`;
 
         townCard.appendChild(image);
         townCard.appendChild(div);
