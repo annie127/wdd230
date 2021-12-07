@@ -1,0 +1,46 @@
+@media only screen and (min-width: 1008px) {
+
+
+	header img {
+		width: 100%;
+	}
+
+	.heading h1 {
+        font-size: 2rem;
+        margin-left: 20px;
+	}
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+        display: block; 
+        padding-right: 30px;
+    }
+    
+	.navigation a {
+		text-align: left;
+		font-size: 18px;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+	.intro-message h2 {
+		font-size: 2rem;
+		top: 18rem;
+		left: 5rem;
+		line-height: 2.5rem;
+	}
+	
+	.intro-message #cta {
+		font-size: 1.5rem;
+		top: 27rem;
+		left: 12rem;
+	}
+
+
+
+
+
+}

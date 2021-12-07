@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Panglao Chamber of Commerce
+    </title>
+    <meta name="description"
+        content="The Panglao Chamber of Commerce is here to help the growth and development of your business. " />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/hamburger.js"></script>
+    <script defer src="js/date-updated.js"></script>
+    <script defer src="js/current-year.js"></script>
+    <script defer src="js/current-weather.js"></script>
+    <script defer src="js/3day-forecast.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <picture><a href="..//final-project/panglao-chamber.html"><img src="images/panglao-chamber-logo.png"
+                    alt="site-logo" id="logo"></a></picture>
+        <section class="heading">
+            <h1>Panglao Chamber of Commerce</h1>
+        </section>
+    </header>
+    <div class="nav-social">
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham-menu" href="#"><img src="images/menu-icon.svg" alt="hamburger icon"></a></li>
+                <li class="active"><a href="../final-project/panglao-chamber.html">HOME</a></li>
+                <li><a href="../final-project/city.html">CITY</a></li>
+                <li><a href="../final-project/join.html">JOIN</a></li>
+                <li><a href="../final-project/directory.html">DIRECTORY</a></li>
+                <li><a href="../final-project/contact-us.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <section id="social-top">
+            <p>+63 123 4468465 <br>
+                <a href="https://www.facebook.com" target="alt_blank"><img src="images/fb-icon.png"
+                        alt="facebook icon" /></a>
+                <span><a href="https://www.instagram.com/" target="alt_blank"><img src="images/insta-icon.png"
+                            alt="instagram icon" /></a> </span><span><a href="https://twitter.com/"
+                        target="alt_blank"><img src="images/twitter-icon.png" alt="twitter icon" /></a>
+            </p>
+        </section>
+    </div>
+
+    <main>
+        <div class="herodiv">
+            <picture>
+                <source media="(min-width: 641px) and (max-width: 1007px)" srcset="images/homepage-medium.jpeg" />
+                <source media="(min-width: 1008px)" srcset="images/homepage-large.jpeg" />
+                <img src="images/homepage-small.jpeg" alt="family hand in hand on the beach at sunset" />
+            </picture>
+            <section class="intro-message">
+                <h2>Welcome to Panglao Chamber of Commerce <br> Your Partner for a Better Panglao</h2>
+                <a href="join.html" id="cta">Join Us Now</a>
+            </section>
+
+        </div>
+
+        <div id="main-content">
+        <section id="weather">
+            <div id="current-weather">
+                <h3>Panglao, Philippines</h3>
+                <p><span id="temp"></span> &deg;C <br> <span id="description"></span></p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+            </div>
+            <div id="forecast">
+                <h4>3-day Forecast</h3>
+                <div class="days">
+                    <p class="weekday" id="day1"></p>
+                    <p class="icon"><img src="./images/placeholder-icon.png" alt="" id="img1"></p>
+                    <p class="forecast-temp"><span id="day1Temp"></span> &deg;F</p>
+                </div>
+                <div class="days">
+                    <p class="weekday" id="day2"></p>
+                    <p class="icon"> <img src="./images/placeholder-icon.png" alt="" id="img2"></p>
+                    <p class="forecast-temp"><span id="day2Temp"></span> &deg;<Cc:noie></Cc:noie>
+                    </p>
+                </div>
+                <div class="days">
+                    <p class="weekday" id="day3"></p>
+                    <p class="icon"> <img src="./images/placeholder-icon.png" alt="" id="img3"></p>
+                    <p class="forecast-temp"><span id="day3Temp"></span> &deg;C</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="col1">
+        <article>
+            <h2>Our Purpose</h2>
+            <p>The purpose of Panglao Chamber is to serve the interests of businesses around Panglao through the
+                cooperation of our members in promoting our long-term objectives. We are focused on contributing to the
+                economic and civic development of the town.</p>
+            <p>Our main responsibility is to help further the interests of small businesses in Panglao by doing range of
+                activities from charitable works to hosting events for the betterment of the community. We believe we
+                can achieve this goal if we work close together. </p>
+            <p>Panglao Chamber is your valuable partner in achieving your business goals.</p>
+        </article>
+
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <div id="sinulog">
+                <p class="date">Jan 30 <br>1pm to 5pm</p>
+                <img src="images/sinulog.jpeg" alt="girls dancing on the street" class="events-images">
+                <div class="col3-events">
+                <p class="event">Sinulog sa Panglao</p>
+                <p>Sinulog sa Panglao is a festive event which happens every 4th week of January. It is patterned from a
+                    festival in Cebu which is also called Sinulog. This event is participated by people from different
+                    sectors competing with each other and showcasing the town’s culture through colorful costumes and
+                    dances.</p>
+                </div>
+            </div>
+
+            <div id="ironman">
+                <p class="date">July 10 <br>6am to 2pm</p>
+                <img src="images/iron-man-triathlon.jpeg" alt="guy running in a race" class="events-images">
+                <div class="col3-events">
+                <p class="event">Ironman 5150 Triathlon</p>
+                <p>The World Triathlon Corporation, owners of the Ironman and Ironman 70.3 races started the 5i50 series
+                    in 2011 in the United States. The 5150 Series is the largest international distance triathlon series
+                    in the world and will be the first non-drafting international race series of its kind, offering a
+                    competitive platform for professional and age group athletes. The 5150 Series consists of a
+                    1.5K-swim, 40K- bike and 10k-run.</p>
+                </div>
+            </div>
+
+            <div id="dragon">
+                <p class="date">July 20 <br> 8am to 12noon</p>
+                <img src="images/dragon-boat.jpeg" alt="people on boat racing" class="events-images">
+                <div class="col3-events">
+                <p class="event">Sandugo Dragon Boat Fest</p>
+                <p>In this event, local paddlers show their strength, endurance and teamwork through a synchronized 300
+                    meters of paddling. Participated by various paddlers from all over the country, this event sees them
+                    padding through Dauis and Tagbilaran Strait. The currents and waters of the strait make this event
+                    an exciting and must-see event.</p>
+                </div>
+            </div>
+
+            <div id="hudyaka">
+                <p class="date">Aug 28 <br>1pm to 5pm</p>
+                <img src="images/hudyaka.jpeg" alt="girls dancing in colorful clothes" class="events-images">
+                <div class="col3-events">
+                <p class="event">Hudyaka sa Panglao </p>
+                <p>Hudyaka sa Panglao is the oldest and most celebrated event in Panglao. It happens every 28th day of
+                    August. Just like the Sinulog festival, Hudyaka sa Panglao also showcased the town’s culture and
+                    tradition. It is participated by the ten different barangays (communities) of Panglao. They dance
+                    along the town’s street with their colorful costumes and lively music.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="partners">
+            <h2>Our Partners</h2>
+            <p><img src="images/advertise-1.jpeg"></p>
+            <p><img src="images/advertise-1.jpeg"></p>
+            <p><img src="images/advertise-1.jpeg"></p>
+        </section>
+    </div>
+    </div>
+    </main>
+    <footer>
+
+        <div class="footer-bar">
+            <p>&copy; <span id="current-year"></span> Panglao Chamber of Commerce | <a
+                    href="../lesson11/attributions.html">Attributions</a> | Annie Hawley <br />
+            <p id="date">Last Updated: <span id="date-updated"></span></p>
+            </p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Opens Sans", "Roboto"]
+            }
+        });
+    </script>
+</body>
+
+</html>

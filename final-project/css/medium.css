@@ -1,0 +1,60 @@
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+
+	header img {
+		width: 100%;
+	}
+
+	.heading h1 {
+        font-size: 1.5rem;
+        margin-left: 20px;
+	}
+
+ .navigation {
+        display: flex;
+        margin-left: 5px;
+	}
+
+	.navigation li {
+		display: block; 
+        flex: 1 1 auto;
+        padding-left: 0;
+        padding-right: 15px;
+        letter-spacing: 2px;
+	}
+	.navigation a {
+		text-align: left;
+		font-size: 17px;
+
+	}
+
+	.intro-message h2 {
+		font-size: 2rem;
+		top: 20rem;
+		left: 5rem;
+	}
+	
+	#social-top {
+		padding-right: 2%;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+
+	.intro-message h2 {
+		font-size: 1.5rem;
+		top: 17rem;
+		left: 5rem;
+		line-height: 2rem;
+	}
+	
+	.intro-message #cta {
+		font-size: 1.3rem;
+		top: 24rem;
+		left: 12rem;
+	}
+
+
+
+
+}
