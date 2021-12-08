@@ -35,6 +35,16 @@
 		display: none;
 	}
 
+	.herodiv img {
+		position: relative;
+	}
+	
+	.intro-message h2, #cta {
+		position: absolute;
+		color: white;
+	}
+
+
 
 	main h2{
 		font-size: 25px;

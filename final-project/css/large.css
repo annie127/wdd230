@@ -26,10 +26,96 @@
 		display: none;
 	}
 
+	.herodiv img {
+		position: relative;
+	}
 	
+	.intro-message h2, #cta {
+		position: absolute;
+		color: white;
+	}
 
+	.intro-message h2 {
+		font-size: 1.6rem;
+		left: 3rem;
+		line-height: 2rem;
+		top: 17rem;
+	}
 
+	.intro-message #cta {
+		font-size: 1.2rem;
+		top: 25rem;
+		left: 8rem;
+		padding: 12px;
+		border: 2px solid #24305e;
+		border-radius: 20px;
+		background-color: #24305e;
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+		margin: 0;
+	}
 
+	#main-content {
+		max-width: 1200px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 80% 20%;
+		grid-gap: 10px;
+	}
 
+	#col1 {
+		grid-column: 1/2;
+		grid-row: 1/2;
+		padding: 1rem;
+	}
+	
+	#weather {
+		grid-column: 2/3;
+		padding: 1rem;
+		margin: 0;
+	}
+	
+	article {
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+		border-radius: 20px;
+		text-align: center;
+		padding: 10px;
+		margin-bottom: 3rem;
+	}
+
+	#current-weather, #forecast {
+		border: 2px solid #f76c6c;
+		text-align: center;
+		border-radius: 10px;
+		line-height: 30px;
+		font-size: 1.2rem;
+		margin-right: 20px;
+	}
+
+	article h2, #events h2, #partners h2 {
+		font-size: 1.5rem;
+	}
+
+	#events > div {
+		display: grid;
+		grid-template-columns: 20% 30% 50%;
+		grid-gap: 10px;
+		padding: 10px 20px 20px 20px;
+		margin: 10px 20px;
+		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	}
+
+	#events {
+	border-radius: 20px;
+
+	}
+
+	.date {
+		font-size: 1.3rem;
+
+	}
+
+	.event {
+		font-size: 1.2rem;
+	}
 
 }

@@ -35,6 +35,15 @@
 		display: none;
 	}
 
+	.herodiv img {
+		position: relative;
+	}
+	
+	.intro-message h2, #cta {
+		position: absolute;
+		color: white;
+	}
+
 	.intro-message h2 {
 		font-size: 1.3rem;
 		top: 17rem;
@@ -46,29 +55,53 @@
 		font-size: 1.3rem;
 		top: 24rem;
 		left: 12rem;
+		border: 2px solid #24305e;
+		border-radius: 20px;
+		background-color: #24305e;
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+		margin: 0;
 	}
 
 	#main-content {
+		grid-template-columns: 70% 30%;
+		max-width: 1200px;
 		margin: 0 auto;
 		display: grid;
-		grid-template-columns: 70% 30%;
-		grid-gap: 20px;
+		grid-gap: 10px;
+		margin: 10px;
 	}
 
+	#col1 {
+		grid-column: 1/2;
+		grid-row: 1/2;
+		padding: 1rem;
+	}
+	
+	#weather {
+		grid-column: 2/3;
+		padding: .5rem;
+		margin: 0;
+	}
+
+	article {
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+		border-radius: 20px;
+		text-align: center;
+		padding: 10px;
+		margin-bottom: 3rem;
+	}
 
 	#events > div {
 		display: block;
-		padding: 10px 20px 10px 20px;
+		padding: 10px 20px 20px 20px;
 		margin: 10px 20px;
 		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 		text-align: center
 	}
 
-
-
-
-
-
-
+	#events {
+		border-radius: 20px;
+		
+		}
 
 }
