@@ -54,7 +54,15 @@
 			"contactnumber":"(63)919 0823622",
 			"email": "reservations@modala.ph",
 			"website": "https://modala.ph/"
-		}
+        },
+
+		{
+			"logo": "belleveu.png",
+			"contactnumber":"(63)38 422 2222",
+			"email": "info@thebellevuebohol.com",
+			"website": "https://www.thebellevuebohol.com/"
+        }
+        
 
 	]
 }
