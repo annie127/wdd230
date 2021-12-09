@@ -1,6 +1,6 @@
 {
 	"businesses": [{
-            "logo": "henann-logo.png",
+            "logo": "henann-logo.jpg",
             "name": "Henann Resort Alona Beach",
 			"contactnumber": "(63)(38) 502 9141 to 44",
 			"email": "reservations.hbl@henann.com",
@@ -8,7 +8,7 @@
 		},
 
 		{
-            "logo": "amorita-logo.png",
+            "logo": "amorita-logo.jpg",
             "name": "Amorita Resort",
 			"contactnumber":"(63)(38) 502 9003",
 			"email": "inquiries@one-ofcollection.com",
@@ -16,7 +16,7 @@
 		},
 
 		{
-            "logo": "bluewater-logo.png",
+            "logo": "bluewater-logo.jpg",
             "name": "Bluewater Resort Panglao",
 			"contactnumber":"(63)(38) 416 0702",
 			"email": "panglao@bluewater.com.ph",
@@ -25,7 +25,7 @@
 
 
 		{
-            "logo": "south-palms-logo.png",
+            "logo": "south-palms-logo.jpg",
             "name": "South Palms Resort",
 			"contactnumber":"(63)(38) 422 2222",
 			"email": "info@southpalmsresort.com",
@@ -33,7 +33,7 @@
 		},
 
 		{
-            "logo": "eskaya-logo.png",
+            "logo": "eskaya-logo.jpg",
             "name": "Eskaya Resort",
 			"contactnumber":"(63)(38) 502 9516",
 			"email": "reservations@eskayaresort.com",
@@ -41,7 +41,7 @@
 		},
 
 		{
-            "logo": "bohol-beach-club.png",
+            "logo": "bohol-beach-club.jpg",
             "name": "Bohol Beach Club",
 			"contactnumber":"(63)(38) 502-9221",
 			"email": "reservations@boholbeachclub.com.ph",
@@ -49,7 +49,7 @@
 		},
 
 		{
-            "logo": "mithi-logo.png",
+            "logo": "mithi-logo.jpg",
             "name": "Mithi Resort & Spa",
 			"contactnumber":"(63)917 3040222",
 			"email": "info@mithiresort.com",
@@ -57,7 +57,7 @@
 		},
 
 		{
-            "logo": "modala-logo.png",
+            "logo": "modala-logo.jpg",
             "name": "Modala Resort",
 			"contactnumber":"(63)919 0823622",
 			"email": "reservations@modala.ph",
@@ -65,7 +65,7 @@
         },
 
 		{
-            "logo": "belleveu-logo.png",
+            "logo": "belleveu-logo.jpg",
             "name": "Belleveu Resort",
 			"contactnumber":"(63)38 422 2222",
 			"email": "info@thebellevuebohol.com",
