@@ -1,8 +1,8 @@
 main {
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
-    background-color: #d2eaf7;
     font-size: 17px;
+    background-color: #d2eaf7;
 }
 
 .nav-social, section #contact, footer {
@@ -11,7 +11,7 @@ main {
   color:#FDFEFF;
 }
 
-#weather > div, article, #events, partners {
+#weather > div, #purpose, #events, partners {
     background-color: white;
     max-width: 100%;
 }
@@ -123,26 +123,27 @@ footer {
 .herodiv img {
     filter: blur(1px);
     max-width: 100%;
+    position: unset;
 }
 
-.intro-message h2 {
+.hero-message h2, #cta {
+    position: unset;
+}
+
+.hero-home {
     font-size: 1.2rem;
     line-height: 2rem;
     color: #24305e;
-    text-align: center;
     margin-bottom: 30px;
+    text-align: center;
 }
 
-.intro-message #cta {
-    font-size: 1.1rem;
+#cta {
     border: 2px solid #f76c6c;
-    background-color: #f76c6c;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 12px;
-    color: white;
     border-radius: 20px;
-    text-align: center;
-    margin: 7rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:#f76c6c;
+    padding: 10px;
 }
 
 #main-content {
@@ -151,17 +152,29 @@ footer {
 }
 
 #weather {
-    padding: 1rem;
-    margin: 30px 50px;    
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 30px;
 }
 
-
-#weather > div {
+#current-weather {
     border: 2px solid #f76c6c;
-    text-align: center;
     border-radius: 10px;
-    line-height: 30px;
-    font-size: 1.1rem;
+    margin: 30px 50px;
+    padding: 1rem;
+}
+
+#forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid #f76c6c;
+    border-radius: 10px;
+    margin: 10px 10px 20px 10px;
+    padding: .5rem;
+}
+
+#forecast h3 {
+    display: none;
 }
 
 #temp {
@@ -178,20 +191,16 @@ footer {
     font-size: 1.2rem;
 }
 
-.days {
-    border-bottom: 2px solid rgb(192, 184, 184);
-}
-
 .forecast-temp, .days {
     color: #24305e;
 }
 
-article h2, #events h2, #partners h2 {
+#purpose h2, #events h2, #partners h2, #main-city h2 {
     font-size: 1.3rem;
     text-align: center;
 }
 
-article {
+#purpose, #abt-panglao, #things-to-do {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     text-align: center;
     padding: 10px;
@@ -201,7 +210,7 @@ article {
 #events {
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: 2rem 1rem 3rem 1rem;
+    margin: 2rem 1rem 1rem 1rem;
 }
 
 #events img {
@@ -250,13 +259,68 @@ article {
 }
 
 #partners {
-    margin-top: 1rem;
     text-align: center;
     padding: 20px;
-
 }
 
 #partners img {
     max-width: 100%;
 }
+
+/* -------------------------- City Page ---------------------------- */
+
+#main-city{
+   max-width: 960px;
+   margin: 0 auto;
+}
+
+#main-city img{
+    max-width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+#things-to-do, #abt-panglao{
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#things-to-do {
+    margin-bottom: 0;
+}
+
+#things-to-do h3 {
+    color: #24305e;
+}
+
+#things-to-do > article {
+	border: 2px solid rgb(214, 209, 209);
+	display: block;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#things-to-do img {
+	text-align: center;
+    padding-right: 0
+
+}
+
+.todo-description{
+	text-align: center;
+	padding-left: 10px;
+	margin-left: 0;
+}
+
+#hero-city {
+    text-align: center;
+    color: #24305e;
+    padding: 20px 0;
+}
+
+
+
+
+
+
 

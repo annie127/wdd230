@@ -1,7 +1,7 @@
 
 //Get the days of the week
 const d = new Date();
-const daysShort = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const daysShort = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
 
 function CheckDay(day){
     if(day + d.getDay() > 6){

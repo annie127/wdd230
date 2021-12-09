@@ -30,19 +30,20 @@
 		position: relative;
 	}
 	
-	.intro-message h2, #cta {
+	.hero-message h2, #cta {
 		position: absolute;
 		color: white;
 	}
 
-	.intro-message h2 {
+	.hero-message h2 {
 		font-size: 1.6rem;
 		left: 3rem;
 		line-height: 2rem;
 		top: 17rem;
+		color: white;
 	}
 
-	.intro-message #cta {
+	.hero-message #cta {
 		font-size: 1.2rem;
 		top: 25rem;
 		left: 8rem;
@@ -70,11 +71,14 @@
 	
 	#weather {
 		grid-column: 2/3;
-		padding: 1rem;
-		margin: 0;
+		margin: 0 20px 0 10px;
+		text-align: center;
+		border-radius: 10px;
+		font-size: 1.1rem;
+		line-height: 30px;
 	}
 	
-	article {
+	#purpose {
 		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 		border-radius: 20px;
 		text-align: center;
@@ -82,16 +86,22 @@
 		margin-bottom: 3rem;
 	}
 
-	#current-weather, #forecast {
+	#current-weather, #forecast{
 		border: 2px solid #f76c6c;
-		text-align: center;
 		border-radius: 10px;
-		line-height: 30px;
-		font-size: 1.2rem;
-		margin-right: 20px;
+		margin: 10px 10px 20px 10px;
 	}
 
-	article h2, #events h2, #partners h2 {
+
+	#forecast, #forecast h3 {
+		display: block;
+	}
+
+	.days {
+		border-bottom: 2px solid rgb(192, 184, 184);
+	}
+
+	#purpose h2, #events h2, #partners h2, #things-to-do h2, #abt-panglao h2 {
 		font-size: 1.5rem;
 	}
 
@@ -117,5 +127,48 @@
 	.event {
 		font-size: 1.2rem;
 	}
+
+
+
+/* ------------ City Page ---------------- */
+
+#things-to-do > article {
+	display: grid;
+	grid-template-columns: 38% 62%;
+	grid-gap: 10px;
+
+}
+
+#things-to-do .todo-description {
+	grid-column: 2/3;
+}
+
+#things-to-do img {
+	grid-column: 1/2;
+	grid-row: span 2;
+
+}
+
+.todo-description{
+	text-align: left;
+}
+
+.herodiv img {
+	position: relative;
+}
+
+.hero-message h2 {
+	position: absolute;
+	color: white;
+}
+#hero-city {
+	font-size: 3.5rem;
+	top: 17rem;
+	left: 12rem;
+	color: white;
+}
+
+
+
 
 }
