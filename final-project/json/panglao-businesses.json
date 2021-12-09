@@ -1,61 +1,60 @@
 {
-    businesses: [
-        {
-            logo: "henann-logo.png",
-            contactnumber: "(63)(38) 502 9141 to 44",
-            email: "reservations.hbl@henann.com",
-            website: "https://www.henann.com/bohol/henannalonabeach/"
-        },
+	"businesses": [{
+			"logo": "henann-logo.png",
+			"contactnumber": "(63)(38) 502 9141 to 44",
+			"email": "reservations.hbl@henann.com",
+			"website": "https://www.henann.com/bohol/henannalonabeach/"
+		},
 
-        {
-            logo: "amorita-logo.png",
-            contactnumber: "(63)(38) 502 9003",
-            email: "inquiries@one-ofcollection.com",
-            website: "https://www.amoritaresort.com/"
-        },
+		{
+			"logo": "amorita-logo.png",
+			"contactnumber":"(63)(38) 502 9003",
+			"email": "inquiries@one-ofcollection.com",
+			"website": "https://www.amoritaresort.com/"
+		},
 
-        {
-            logo: "bluewater-logo.png",
-            contactnumber: "(63)(38) 416 0702",
-            email: "panglao@bluewater.com.ph",
-            website: "https://www.bluewaterpanglao.com.ph/"
-        },
+		{
+			"logo": "bluewater-logo.png",
+			"contactnumber":"(63)(38) 416 0702",
+			"email": "panglao@bluewater.com.ph",
+			"website": "https://www.bluewaterpanglao.com.ph/"
+		},
 
 
-        {
-            logo: "south-palms-logo.png",
-            contactnumber: "(63)(38) 422 2222",
-            email: "info@southpalmsresort.com",
-            website: "https://www.southpalmsresort.com/en/"
-        },
+		{
+			"logo": "south-palms-logo.png",
+			"contactnumber":"(63)(38) 422 2222",
+			"email": "info@southpalmsresort.com",
+			"website": "https://www.southpalmsresort.com/en/"
+		},
 
-        {
-            logo: "eskaya-logo.png",
-            contactnumber: "(63)(38) 502 9516",
-            email: "reservations@eskayaresort.com",
-            website: "https://www.eskayaresort.com/"
-        },
+		{
+			"logo": "eskaya-logo.png",
+			"contactnumber":"(63)(38) 502 9516",
+			"email": "reservations@eskayaresort.com",
+			"website": "https://www.eskayaresort.com/"
+		},
 
-        {
-            logo: "bohol-beach-club.png",
-            contactnumber: "(63)(38) 502-9221",
-            email: "reservations@boholbeachclub.com.ph",
-            website: "https://www.boholbeachclub.com.ph/"
-        },
+		{
+			"logo": "bohol-beach-club.png",
+			"contactnumber":"(63)(38) 502-9221",
+			"email": "reservations@boholbeachclub.com.ph",
+			"website": "https://www.boholbeachclub.com.ph/"
+		},
 
-        {
-            logo: "mithi-logo.png",
-            contactnumber: "(63)917 3040222",
-            email: "info@mithiresort.com",
-            website: "https://mithiresort.com/"
-        },
+		{
+			"logo": "mithi-logo.png",
+			"contactnumber":"(63)917 3040222",
+			"email": "info@mithiresort.com",
+			"website": "https://mithiresort.com/"
+		},
 
-        {
-            logo: "modala-logo.png",
-            contactnumber: "(63)919 0823622",
-            email: "reservations@modala.ph",
-            website: "https://modala.ph/"
-        },
+		{
+			"logo": "modala-logo.png",
+			"contactnumber":"(63)919 0823622",
+			"email": "reservations@modala.ph",
+			"website": "https://modala.ph/"
+		}
 
-    ]
+	]
 }
