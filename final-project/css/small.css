@@ -320,14 +320,57 @@ footer {
 
 /*  --------------------------  Directory page  --------------  */
 
-main #panglao-directory {
+main #directory {
     max-width: 1020px;
     margin: 0 auto;
 }
 
-section > .business-info {
-    background-color: white;
+.mybtn {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #eee;
+    border-radius: 5px;
+    outline: none;
 }
+
+#directory span {
+    font-family: 'Roboto', sans-serif;
+}
+
+.mybtn:hover {
+    background-color: #aaaa;
+}
+
+#directory .Active, #directory .Active:hover {
+    color: #fff;
+    background-color: #f76c6c;
+    border: 2px solid #f76c6c;
+}
+
+.business-info img{
+    max-width: 100%;
+    height: auto;
+}
+
+section > .business-info {
+    max-width: 300px;
+    background-color: white;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.business-info h4 {
+    font-size: 1.2rem;
+}
+
+.business-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 
 
 

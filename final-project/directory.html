@@ -14,10 +14,12 @@
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script defer src="js/hamburger.js"></script>
     <script defer src="js/date-updated.js"></script>
     <script defer src="js/current-year.js"></script>
     <script defer src="js/directory.js"></script>
+    <script defer src="js/listgrid.js"></script>
 </head>
 
 <body>
@@ -63,9 +65,11 @@
                 <p class="hero-home"><a href="join.html" id="cta">Join Us Now</a></p>
             </section>
         </div>
-        <div id="panglao-directory">
+        <div id="directory">
         <h2> Welcome to Panglao Directory!</h2>
-        <h2>Here you can find businesses in Panglao area.</h2>
+        <button class="mybtn fa fa-list" onclick="Button(0); List();">&nbsp;<span>list</span></button>
+        <button class="mybtn Active fa fa-th-large" onclick="Button(1); Grid();">&nbsp;<span>grid</span></span></button>
+       
         <div class="business-cards"></div>
         </div>
     </main>
