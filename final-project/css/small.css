@@ -318,6 +318,17 @@ footer {
     padding: 20px 0;
 }
 
+/*  --------------------------  Directory page  --------------  */
+
+main #panglao-directory {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+section > .business-info {
+    background-color: white;
+}
+
 
 
 
