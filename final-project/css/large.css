@@ -1,9 +1,4 @@
-@media only screen and (min-width: 1008px) {
-
-
-	header img {
-		width: 100%;
-	}
+@media only screen and (min-width: 781px) {
 
 	.heading h1 {
         font-size: 2rem;
@@ -56,8 +51,6 @@
 	}
 
 	#main-content {
-		max-width: 1200px;
-		margin: 0 auto;
 		display: grid;
 		grid-template-columns: 80% 20%;
 		grid-gap: 10px;
@@ -166,6 +159,54 @@
 	top: 17rem;
 	left: 12rem;
 	color: white;
+}
+
+/*  ------------------ Directory page ----------------- */
+
+#button {
+    display: block;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	padding: 0 30px;
+	margin: 40px;
+}
+
+h2.contact {
+	font-size: 25px;
+}
+
+.director p:nth-of-type(1){
+    font-size: 1.2rem;
+}
+
+main iframe {
+	margin: 40px;
+	padding: 30px;
+}
+
+/*  ----------------- Contact page ----------------- */
+
+#contact-page{
+    margin: 30px;
+}
+
+#contact-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: left;
+}
+
+#comment-form {
+    padding: .5rem 1rem;
+}
+
+#contact-info h3, #contact-info p{
+    padding-left: 3rem;
 }
 
 

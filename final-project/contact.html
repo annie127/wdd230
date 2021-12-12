@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Panglao Chamber of Commerce
+    </title>
+    <meta name="description"
+        content="The Panglao Chamber of Commerce is here to help the growth and development of your business. " />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="js/hamburger.js"></script>
+    <script defer src="js/date-updated.js"></script>
+    <script defer src="js/current-year.js"></script>
+    <script defer src="js/directory.js"></script>
+    <script defer src="js/listgrid.js"></script>
+</head>
+
+<body>
+    <header>
+        <picture><a href="..//final-project/panglao-chamber.html"><img src="images/panglao-chamber.png" alt="site-logo"
+                    id="logo"></a></picture>
+        <section class="heading">
+            <h1>Panglao Chamber of Commerce</h1>
+        </section>
+    </header>
+    <div class="nav-social">
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham-menu" href="#"><img src="images/menu-icon.svg" alt="hamburger icon"></a></li>
+                <li><a href="../final-project/panglao-chamber.html">HOME</a></li>
+                <li><a href="../final-project/panglao.html">PANGLAO</a></li>
+                <li><a href="../final-project/join.html">JOIN</a></li>
+                <li><a href="../final-project/directory.html">DIRECTORY</a></li>
+                <li class="active"><a href="../final-project/contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <section id="social-top">
+            <p>+63 123 4468465 <br>
+                <a href="https://www.facebook.com" target="alt_blank"><img src="images/fb-icon.png"
+                        alt="facebook icon" /></a>
+                <span><a href="https://www.instagram.com/" target="alt_blank"><img src="images/insta-icon.png"
+                            alt="instagram icon" /></a> </span><span><a href="https://twitter.com/"
+                        target="alt_blank"><img src="images/twitter-icon.png" alt="twitter icon" /></a>
+            </p>
+        </section>
+    </div>
+
+    <main>
+        <div class="herodiv">
+            <picture>
+                <source media="(min-width: 641px) and (max-width: 1007px)" srcset="images/directory-medium.jpg" />
+                <source media="(min-width: 1008px)" srcset="images/directory-large.jpg" />
+                <img src="images/directory-small.jpg" alt="hands typing on a laptop" />
+            </picture>
+            <section class="hero-message">
+                <h2 class="hero-home">Contact Us</h2>
+            </section>
+        </div>
+        <div id="contact-page">
+            <h2 class="contact">Meet our Board of Directors</h2>
+            <section id="board">
+                <div class="director">
+                    <img src="images/president.jpg" alt="old man in business suit">
+                    <p>Thomas Tanner</p>
+                    <p>President</p>
+                </div>
+                <div class="director">
+                    <img src="images/vice-president.jpg" alt="old man with glasses">
+                    <p>Kevin Fuller</p>
+                    <p>Vice President</p>
+                </div>
+                <div class="director">
+                    <img src="images/secretary.jpg" alt="woman smiling on camera in business suit">
+                    <p>Katherine Garcia</p>
+                    <p>Secretary</p>
+                </div>
+                <div class="director">
+                    <img src="images/treasurer.jpg" alt="girl with long hair smiling">
+                    <p>Shirley Jackson</p>
+                    <p>Treasurer</p>
+                </div>
+                <div class="director">
+                    <img src="images/director-1.jpg" alt="man with short beard smiling">
+                    <p>Stephen Hughes</p>
+                    <p>Director</p>
+                </div>
+                <div class="director">
+                    <img src="images/director-2.jpg" alt="woman with curly hair">
+                    <p>Joyce Fisher</p>
+                    <p>Director</p>
+                </div>
+            </section>
+            <div id="contact-us">
+                <section id="contact-info">
+                    <h3>Get in touch</h3>
+                    <p>Address: Ester Lim Drive, Tawala </p>
+                    <p>Panglao, Philippines 6340</p>
+                    <p>Mobile: (63)919 6618254</p>
+                    <p>Landline: (63)(38) 4276730</p>
+                    <p>Email address: inquiries@pangcham.com</p>
+                    <div style="text-align:center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d251785.6903747937!2d123.76317499999999!3d9.582214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33abace2adb22c61%3A0xbf332f18bfdc0d41!2sPanglao%2C%20Bohol!5e0!3m2!1sen!2sph!4v1639322498651!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </section>
+    
+                <section id="comment-form">
+                    <h3>Drop us a message</h3>
+    
+                    <div class="form-body">
+                        <form method="post" action="thanks.html"
+                            onsubmit="return confirm('Are you sure you want to send your message?')">
+    
+                            <label class="contact">Name* <input type="text" name="fullname" pattern="[^0-9]{5,}"
+                                    required></label>
+                            <label class="contact">Email <input type="email" name="email"
+                                    placeholder="myemail@gmail.com"></label>
+                            <label class="contact">Phone <input type="tel" name="phone" required></label>
+                            <label class="info">Message* <textarea id="comment" name="comments"></textarea></label>
+                            <input type="submit" value="Send Message" class="submitBtn">
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+        <div class="footer-bar">
+            <p>&copy; <span id="current-year"></span> Panglao Chamber of Commerce | <a
+                    href="attributions.html">Attributions</a> | Annie Hawley <br />
+            <p id="date">Last Updated: <span id="date-updated"></span></p>
+            </p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Opens Sans", "Roboto"]
+            }
+        });
+    </script>
+</body>
+
+</html>

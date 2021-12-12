@@ -1,8 +1,4 @@
-@media only screen and (min-width: 641px) and (max-width: 1007px) {
-
-	header img {
-		width: 100%;
-	}
+@media only screen and (min-width: 541px) and (max-width: 780px) {
 
 	.heading h1 {
         font-size: 1.5rem;
@@ -121,7 +117,7 @@
 		}
 
 
-/*-------------------- CSS page ------------------ */
+/*-------------------- Panglao page ------------------ */
 
 #things-to-do > article {
 	display: grid;
@@ -148,5 +144,22 @@
 	left: 10rem;
 	color: white;
 }
+
+/*  ------------------ Directory page ----------------- */
+
+.business-cards {
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+#button {
+    display: block;
+}
+
+
+
+
+
+
 
 }

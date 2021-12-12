@@ -1,8 +1,12 @@
 main {
+    max-width: 1200px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
-    background-color: #d2eaf7;
+}
+
+img {
+    max-width: 100%;
 }
 
 .nav-social, section #contact, footer {
@@ -13,7 +17,6 @@ main {
 
 #weather > div, #purpose, #events, partners {
     background-color: white;
-    max-width: 100%;
 }
 
 header {
@@ -29,16 +32,11 @@ header {
 	justify-content:center;
 }
 
-header img {
-	width: 80px;
-	height: auto;
-}
 
 .heading h1 {
 	font-size: 1rem;
 	margin: 0 0 0 20px;
 }
-
 
 .nav-social{
     display: flex;
@@ -146,11 +144,6 @@ footer {
     padding: 10px;
 }
 
-#main-content {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 #weather {
     text-align: center;
     font-size: 1.2rem;
@@ -213,10 +206,6 @@ footer {
     margin: 2rem 1rem 1rem 1rem;
 }
 
-#events img {
-    max-width: 100%;
-}
-
 #events > div {
     display: block;
     padding: 10px 20px 20px 20px;
@@ -263,16 +252,8 @@ footer {
     padding: 20px;
 }
 
-#partners img {
-    max-width: 100%;
-}
-
 /* -------------------------- City Page ---------------------------- */
 
-#main-city{
-   max-width: 960px;
-   margin: 0 auto;
-}
 
 #main-city img{
     max-width: 100%;
@@ -286,7 +267,7 @@ footer {
 }
 
 #things-to-do {
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 #things-to-do h3 {
@@ -320,19 +301,25 @@ footer {
 
 /*  --------------------------  Directory page  --------------  */
 
-main #directory {
-    max-width: 1020px;
-    margin: 0 auto;
+#button {
+    display: none;
 }
 
 .mybtn {
-    padding: 10px 30px;
+    padding: 10px 10px;
     text-transform: uppercase;
     border: none;
     background-color: #eee;
     border-radius: 5px;
     outline: none;
+    margin: 20px;
 }
+
+.business-info img {
+    max-width: 100%;
+   height: auto;
+}
+
 
 #directory span {
     font-family: 'Roboto', sans-serif;
@@ -348,18 +335,14 @@ main #directory {
     border: 2px solid #f76c6c;
 }
 
-.business-info img{
-    max-width: 100%;
-    height: auto;
-}
-
 section > .business-info {
-    max-width: 300px;
     background-color: white;
     text-align: center;
     padding: 10px 15px;
     margin: 20px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 
 .business-info h4 {
@@ -368,8 +351,115 @@ section > .business-info {
 
 .business-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  margin-bottom: 30px;
 }
+
+#button {
+    display: none;
+}
+
+
+/*  ------------------------ Contact  page  --------------  */
+
+#contact-page{
+    margin: 20px;
+}
+
+h2.contact{
+    text-align: center;
+    color: #24305e;
+    font-size: 20px;
+}
+
+#board img {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#board > div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0;
+    
+}
+
+#board {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.director p:nth-of-type(1){
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#contact-us {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: left;
+}
+
+#comment-form {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: .5rem .5rem;
+    margin-top: 1.5rem;
+}
+
+label.contact, label.info {
+    display: block;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    color:#f76c6c;
+}
+
+label.contact input {
+  display: block;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  background-color: whitesmoke;
+}
+
+.submitBtn {
+    padding: .75rem;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #f76c6c;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 99%;
+    height: 300px;
+  }
+
+#contact-info {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: .5rem 0;
+    margin-top: 1.5rem;
+ 
+}
+#contact-info h3, #contact-info p{
+    padding-left: .5rem;
+}
+
+#contact-info p:nth-of-type(2) {
+    text-indent: 4.5rem;
+}
+
+iframe{
+    max-width: 100%;
+    text-align: center;
+}
+
+
+
 
 
 

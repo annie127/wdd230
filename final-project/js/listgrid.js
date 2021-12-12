@@ -16,6 +16,7 @@ function CurrentShowButton(n) {
 function List(){
     let myCard = document.querySelector(".business-cards");
     myCard.style.display = "block";
+    
 }
 
 function Grid(){
