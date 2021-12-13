@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Panglao Chamber of Commerce
+    </title>
+    <meta name="description"
+        content="The Panglao Chamber of Commerce is here to help the growth and development of your business. " />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/hamburger.js"></script>
+    <script defer src="js/date-updated.js"></script>
+    <script defer src="js/current-year.js"></script>
+</head>
+
+<body>
+    <header>
+        <picture><a href="..//final-project/panglao-chamber.html"><img src="images/panglao-chamber.png" alt="site-logo"
+                    id="logo"></a></picture>
+        <section class="heading">
+            <h1>Panglao Chamber of Commerce</h1>
+        </section>
+    </header>
+    <div class="nav-social">
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham-menu" href="#"><img src="images/menu-icon.svg" alt="hamburger icon"></a></li>
+                <li><a href="../final-project/panglao-chamber.html">HOME</a></li>
+                <li><a href="../final-project/panglao.html">PANGLAO</a></li>
+                <li class="active"><a href="../final-project/join.html">JOIN</a></li>
+                <li><a href="../final-project/directory.html">DIRECTORY</a></li>
+                <li><a href="../final-project/contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <section id="social-top">
+            <p>+63 123 4468465 <br>
+                <a href="https://www.facebook.com" target="alt_blank"><img src="images/fb-icon.png"
+                        alt="facebook icon" /></a>
+                <span><a href="https://www.instagram.com/" target="alt_blank"><img src="images/insta-icon.png"
+                            alt="instagram icon" /></a> </span><span><a href="https://twitter.com/"
+                        target="alt_blank"><img src="images/twitter-icon.png" alt="twitter icon" /></a>
+            </p>
+        </section>
+    </div>
+
+    <main>
+        <div class="herodiv">
+            <picture>
+                <source media="(min-width: 641px) and (max-width: 1007px)" srcset="images/city-medium.jpg" />
+                <source media="(min-width: 1008px)" srcset="images/city-large.jpg" />
+                <img src="images/city-small.jpg" alt="arial view of Panglao Island" />
+            </picture>
+            <section class="hero-message">
+                <h2 id="hero-city">Visit Panglao Island</h2>
+            </section>
+        </div>
+        <h2 class="header-page">Join Panglao Chamber of Commerce now and enjoy amazing perks and benefits!</h2>
+        <div class="form-body">
+          <form method="post" action="thanks-join.html" onsubmit="return confirm('Are you sure you want to send your report?')">
+              <fieldset>
+                <legend>Contact Information</legend>
+                <label class="contact">First Name*<input type="text" name="firstname" pattern="[^0-9]{5,}" required></label>
+                <label class="contact">Last Name*<input type="text" name="lastname" pattern="[^0-9]{5,}" required></label>
+                <label class="contact">Title<input type="text" list="titleType"></label>
+                <datalist id="titleType">
+                    <option value="Mr.">
+                    <option value="Mrs.">
+                    <option value="Ms.">
+                    <option value="Sr.">
+                    <option value="Jr.">
+                    <option value="III"></option>
+                  </datalist>
+                <label class="contact">Email* <input type="email" name="email" placeholder="myemail@gmail.com" required></label>
+                <label class="contact">Cell Phone <input type="tel" name="phone"></label>
+              </fieldset>
+  
+              <fieldset>
+                <legend>Business Information</legend>
+                <label class="business">Business Name*<input type="text" name="businessname" required></label>
+                <label class="business">Business Address <input type="text" name="businessAddress"></label>
+                <label class="business">Business Website <input type="text" name="businesswebsite"></label>
+                <label class="description"> Business Description
+                    <select name="description">
+                      <option value="description">Select Description</option>
+                      <option value="bar">Bar</option>
+                      <option value="boattour">Boat Tour Operator</option>
+                      <option value="carrental">Car/Motorbike Rental</option>
+                      <option value="store">Convenience Store</option>
+                      <option value="diveshop">Dive Shop</option>
+                      <option value="hotel">Hotel</option>
+                      <option value="inn">Inn</option>
+                      <option value="landtour">Land Tour Operator</option>
+                      <option value="exchanger">Money Exchanger</option>
+                      <option value="restaurant">Restaurant</option>
+                      <option value="resort">Resort</option>
+                      <option value="travelagent">Travel Agent</option>
+                    </select>
+                  </label>
+              </fieldset>
+
+                <fieldset>
+                <legend>Membership Plan</legend>
+            
+                <label class="radio"><input type="radio" name="level" value="non-profit">&nbsp;&nbsp;Non-profit ($100)<br>
+                    <ul>
+                        <li>Directory listing</li>
+                        <li>Member calls and newsletters</li>
+                        <li>Member-to-member discounts</li>
+                        <li>Free use of our conference rooms</li>
+                    </ul>
+                </label>
+                <label class="radio"><input type="radio" name="level" value="bronze">&nbsp;&nbsp;Bronze ($200) <br><br>
+                    
+                <span>&nbsp;&nbsp;&nbsp;All the benefits of Non-profit, plus:</span>
+                        <ul>
+                        <li>Business marketing trainings</li>
+                        <li>Social media posts </li>
+                        <li>Discounts from FedEx</li>
+                    </ul></label>
+                <label class="radio"><input type="radio" name="level" value="silver">&nbsp;&nbsp;Silver ($400) <br><br>
+          <span>&nbsp;&nbsp;&nbsp;All the benefits of Bronze plus:</span>
+                    <ul>
+                    <li>Direct access to the leaders of the chamber</li>
+                    <li>Free access to networking and events
+                    </li>
+                    <li>Referrals of business 
+                    </li>
+                </ul>
+                </label>
+                <label class="radio"><input type="radio" name="level" value="gold">&nbsp;&nbsp;Gold ($1000)<br><br>
+                    <span>&nbsp;&nbsp;&nbsp;All the benefits of Silver plus:</span>
+                    <ul>
+                    <li>Free 1 year of advertising on our website</li>
+                    <li>A chance to serve  as one of the directors of the chamber
+                    </li>
+                    <li>Free notary services
+                    </li>
+                </ul>
+                </label>
+              </fieldset>
+              <input type="submit" value="Become a Member" class="submitBtn-join">
+          </form>
+        </div>
+    </main>
+    <footer>
+
+        <div class="footer-bar">
+            <p>&copy; <span id="current-year"></span> Panglao Chamber of Commerce | <a
+                    href="attributions.html">Attributions</a> | Annie Hawley <br />
+            <p id="date">Last Updated: <span id="date-updated"></span></p>
+            </p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Opens Sans", "Roboto"]
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -5,6 +5,13 @@ main {
     font-size: 17px;
 }
 
+h2.header-page {
+     font-size: 1.3rem;
+     color: #24305e;
+     text-align: center;
+     margin: 2rem 0;
+}
+
 img {
     max-width: 100%;
 }
@@ -252,7 +259,7 @@ footer {
     padding: 20px;
 }
 
-/* -------------------------- City Page ---------------------------- */
+/* -------------------------- Panglao Page ---------------------------- */
 
 
 #main-city img{
@@ -366,12 +373,6 @@ section > .business-info {
     margin: 20px;
 }
 
-h2.contact{
-    text-align: center;
-    color: #24305e;
-    font-size: 20px;
-}
-
 #board img {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -409,14 +410,14 @@ h2.contact{
     margin-top: 1.5rem;
 }
 
-label.contact, label.info {
+label.contact, label.info, label.business, label.description, label.radio{
     display: block;
     padding-top: 1rem;
     margin-bottom: 1rem;
     color:#f76c6c;
 }
 
-label.contact input {
+label.contact input, label.business input, label.description select {
   display: block;
   border: solid 1px #999;
   border-radius: 4px;
@@ -425,13 +426,17 @@ label.contact input {
   background-color: whitesmoke;
 }
 
-.submitBtn {
+.submitBtn-contact, .submitBtn-join {
     padding: .75rem;
     border-radius: 20px;
     color: white;
     font-weight: bold;
-    background-color: #f76c6c;
     margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.submitBtn-contact{
+    background-color: #f76c6c;
 }
 
 textarea {
@@ -461,9 +466,49 @@ iframe{
 
 
 
+/* --------------- Join Page --------------------------------- */
 
+.form-body {
+    margin: 0 auto;
+    max-width: 600px; 
+}
 
+fieldset {
+    margin: 2rem 0; 
+    border: 1px solid  #24305e;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
 
+legend {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #24305e;
+    padding: .5rem;
+    border-radius: 8px;
+    background-color: #ffe61a;
+  }
+
+  .submitBtn-join {
+    background-color: #ffe61a;
+    color: #24305e;
+    margin: 0 3rem 3rem 0;
+
+  }
+
+  input[type="radio"] {
+    height: 20px;
+    width: 20px;
+  }
+  
+  label.contact input:required:valid {
+    border-left: #1e2952 solid 6px;
+  }
+
+  label.radio span, .radio ul li {
+      color: #24305e;
+  }
 
 
 
