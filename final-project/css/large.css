@@ -148,6 +148,12 @@ section > .business-info {
 
 }
 
+#directory {
+    font-size: 1.5rem;
+
+}
+
+
 
 /*  ----------------- Contact page ----------------- */
 
@@ -165,10 +171,6 @@ section > .business-info {
 
 h2.contact {
 	font-size: 25px;
-}
-
-.director p:nth-of-type(1){
-    font-size: 1.2rem;
 }
 
 main iframe {
@@ -197,7 +199,9 @@ h2.header-page {
 	margin: 4rem;
 }
 
-/*  ----------------- Contact page ----------------- */
+.director h3 {
+    font-size: 1.2rem;
+}
 
 
 }

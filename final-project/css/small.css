@@ -346,8 +346,8 @@ footer {
 }
 
 #button .Active, #button .Active:hover {
-    color: #fff;
-    background-color: #f76c6c;
+    color: white;
+    background-color: #f34949;
     border: 2px solid #f76c6c;
 }
 
@@ -373,6 +373,13 @@ section > .business-info {
     display: none;
 }
 
+#directory {
+    font-size: 1.3rem;
+    color: #24305e;
+    text-align: center;
+    margin-top: 3rem;
+}
+
 
 /*  ------------------------ Contact  page  --------------  */
 
@@ -394,11 +401,6 @@ section > .business-info {
     grid-gap: 10px;
     text-align: center;
     padding: 1rem;
-}
-
-.director p:nth-of-type(1){
-    font-size: 1rem;
-    font-weight: bold;
 }
 
 #contact-us {
@@ -428,7 +430,6 @@ label.contact input, label.business input, label.description select {
   border-radius: 4px;
   padding: .75rem;
   color: #555;
-  background-color: whitesmoke;
 }
 
 .submitBtn-contact, .submitBtn-join {
@@ -441,7 +442,7 @@ label.contact input, label.business input, label.description select {
 }
 
 .submitBtn-contact{
-    background-color: #f76c6c;
+    background-color: #f34949;
 }
 
 textarea {
@@ -468,6 +469,9 @@ iframe{
     text-align: center;
 }
 
+.director h3 {
+    font-size: 1.1rem;
+}
 
 
 
@@ -518,6 +522,7 @@ legend {
   .radio .plan-list {
       padding-left: 2rem;
   }
+
 
 
 
