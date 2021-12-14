@@ -69,11 +69,12 @@ header {
     display: block;  
   }
   
-  .navigation li{
+  .navigation ul li{
     display: none;
     letter-spacing: 3px;
-    padding-bottom: 10px;
+    padding-bottom: 10px 5px;
     font-size: 15px;
+    padding: 10px;
   
   }
 
@@ -99,9 +100,9 @@ header {
     color: #ffe61a;
 }
 
-.navigation .active {
-  text-decoration: underline;
-  text-decoration-style:double;
+nav ul li.active a{
+  background-color: #f76c6c;
+  color: white;
 }
 
   .responsive li {
