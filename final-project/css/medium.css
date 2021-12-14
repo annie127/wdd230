@@ -33,37 +33,20 @@
 		display: none;
 	}
 
-	.herodiv img {
-		position: relative;
+	.hero-message {
+		margin-top: 2rem;
+	}
+
+	.hero-message h2 {
+		font-size: 2rem;
 	}
 	
-	.hero-message h2, #cta {
-		position: absolute;
-		color: white;
-	}
-	
-	.hero-home {
+	.hero-message span{
 		font-size: 1.5rem;
-		top: 17rem;
-		left: 5rem;
-		line-height: 2rem;
-		color: white;
-		text-align: center;
-		margin-bottom: 30px;
 	}
 
-	.hero-message #cta {
-		font-size: 1.3rem;
-		top: 24rem;
-		left: 12rem;
-		border: 2px solid #24305e;
-		border-radius: 20px;
-		background-color: #24305e;
-		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-		margin: 0;
-	}
 
-	#main-content {
+	#grid-home {
 		grid-template-columns: 70% 30%;
 		margin: 0 auto;
 		display: grid;
@@ -137,12 +120,6 @@
 	text-align: left;
 }
 
-#hero-city {
-	font-size: 3rem;
-	top: 15rem;
-	left: 10rem;
-	color: white;
-}
 
 /*  ------------------ Directory page ----------------- */
 
