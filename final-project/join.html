@@ -64,84 +64,92 @@
             </div>
         </div>
         <div id="main-content">
-        <h2 class="header-page">Join Panglao Chamber of Commerce now and enjoy amazing perks and benefits!</h2>
-        <div class="form-body">
-          <form method="post" action="thanks-join.html" onsubmit="return confirm('Are you sure you want to submit?')">
-              <fieldset>
-                <legend>Contact Information</legend>
-                <label class="contact">First Name*<input type="text" name="firstname" pattern="[^0-9]{5,}" required></label>
-                <label class="contact">Last Name*<input type="text" name="lastname" pattern="[^0-9]{5,}" required></label>
-                <label class="contact">Title<input type="text" list="titleType"></label>
-                <datalist id="titleType">
-                    <option value="Mr.">
-                    <option value="Mrs.">
-                    <option value="Ms.">
-                    <option value="Sr.">
-                    <option value="Jr.">
-                    <option value="III"></option>
-                  </datalist>
-                <label class="contact">Email* <input type="email" name="email" placeholder="myemail@gmail.com" required></label>
-                <label class="contact">Cell Phone <input type="tel" name="phone"></label>
-              </fieldset>
-  
-              <fieldset>
-                <legend>Business Information</legend>
-                <label class="business">Business Name*<input type="text" name="businessname" required></label>
-                <label class="business">Business Address <input type="text" name="businessAddress"></label>
-                <label class="business">Business Website <input type="text" name="businesswebsite"></label>
-                <label class="description"> Business Description
-                    <select name="description">
-                      <option value="description">Select Description</option>
-                      <option value="bar">Bar</option>
-                      <option value="boattour">Boat Tour Operator</option>
-                      <option value="carrental">Car/Motorbike Rental</option>
-                      <option value="store">Convenience Store</option>
-                      <option value="diveshop">Dive Shop</option>
-                      <option value="hotel">Hotel</option>
-                      <option value="inn">Inn</option>
-                      <option value="landtour">Land Tour Operator</option>
-                      <option value="exchanger">Money Exchanger</option>
-                      <option value="restaurant">Restaurant</option>
-                      <option value="resort">Resort</option>
-                      <option value="travelagent">Travel Agent</option>
-                    </select>
-                  </label>
-              </fieldset>
+            <h2 class="header-page">Join Panglao Chamber of Commerce now and enjoy amazing perks and benefits!</h2>
+            <div class="form-body">
+                <form method="post" action="thanks-join.html"
+                    onsubmit="return confirm('Are you sure you want to submit?')">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label class="contact">First Name*<input type="text" name="firstname" pattern="[^0-9]{5,}"
+                                required></label>
+                        <label class="contact">Last Name*<input type="text" name="lastname" pattern="[^0-9]{5,}"
+                                required></label>
+                        <label class="contact">Title<input type="text" list="titleType"></label>
+                        <datalist id="titleType">
+                            <option value="Mr.">
+                            <option value="Mrs.">
+                            <option value="Ms.">
+                            <option value="Sr.">
+                            <option value="Jr.">
+                            <option value="III"></option>
+                        </datalist>
+                        <label class="contact">Email* <input type="email" name="email" placeholder="myemail@gmail.com"
+                                required></label>
+                        <label class="contact">Cell Phone <input type="tel" name="phone"></label>
+                    </fieldset>
 
-                <fieldset>
-                <legend>Membership Plan</legend>
-            
-                <label class="radio"><input type="radio" name="level" value="non-profit">&nbsp;&nbsp;Non-profit ($100)<br><br>
-                    <span class="plan-list">Directory listing</span> <br>
-                    <span class="plan-list">Member calls and newsletters</span> <br>
-                    <span class="plan-list">Member-to-member discounts</span> <br>
-                    <span class="plan-list">Free use of our conference rooms</span> <br>
-                </label>
-                <label class="radio"><input type="radio" name="level" value="bronze">&nbsp;&nbsp;Bronze ($200) <br><br>
-                    
-                    <span class="plan-list">All the benefits of Non-profit, plus:</span> <br><br>
-                    <span class="plan-list">Business marketing trainings</span> <br>
-                    <span class="plan-list">Social media posts</span> <br>
-                    <span class="plan-list">Discounts from FedEx</span> <br>
-            </label>
-                <label class="radio"><input type="radio" name="level" value="silver">&nbsp;&nbsp;Silver ($400) <br><br>
+                    <fieldset>
+                        <legend>Business Information</legend>
+                        <label class="business">Business Name*<input type="text" name="businessname" required></label>
+                        <label class="business">Business Address <input type="text" name="businessAddress"></label>
+                        <label class="business">Business Website <input type="text" name="businesswebsite"></label>
+                        <label class="description"> Business Description
+                            <select name="description">
+                                <option value="description">Select Description</option>
+                                <option value="bar">Bar</option>
+                                <option value="boattour">Boat Tour Operator</option>
+                                <option value="carrental">Car/Motorbike Rental</option>
+                                <option value="store">Convenience Store</option>
+                                <option value="diveshop">Dive Shop</option>
+                                <option value="hotel">Hotel</option>
+                                <option value="inn">Inn</option>
+                                <option value="landtour">Land Tour Operator</option>
+                                <option value="exchanger">Money Exchanger</option>
+                                <option value="restaurant">Restaurant</option>
+                                <option value="resort">Resort</option>
+                                <option value="travelagent">Travel Agent</option>
+                            </select>
+                        </label>
+                    </fieldset>
 
-                    <span class="plan-list">All the benefits of Bronze plus:</span> <br><br>
-                    <span class="plan-list">Direct access to the leaders of the chamber</span> <br>
-                    <span class="plan-list">Free access to networking and events</span> <br>
-                    <span class="plan-list">Referrals of business </span> <br>
-                </label>
-                <label class="radio"><input type="radio" name="level" value="gold">&nbsp;&nbsp;Gold ($1000)<br><br>
-                    <span class="plan-list">All the benefits of Silver plus</span> <br><br>
-                    <span class="plan-list">Free 1 year of advertising on our website</span> <br>
-                    <span class="plan-list">A chance to serve  as one of the directors of the chamber</span> <br>
-                    <span class="plan-list">Free notary services</span> <br>
-                </label>
-              </fieldset>
-              <input type="submit" value="Become a Member" class="submitBtn-join">
-          </form>
+                    <fieldset>
+                        <legend>Membership Plan</legend>
+
+                        <label class="radio"><input type="radio" name="level" value="non-profit">&nbsp;&nbsp;Non-profit
+                            ($100)<br><br>
+                            <span class="plan-list">Directory listing</span> <br>
+                            <span class="plan-list">Member calls and newsletters</span> <br>
+                            <span class="plan-list">Member-to-member discounts</span> <br>
+                            <span class="plan-list">Free use of our conference rooms</span> <br>
+                        </label>
+                        <label class="radio"><input type="radio" name="level" value="bronze">&nbsp;&nbsp;Bronze ($200)
+                            <br><br>
+
+                            <span class="plan-list">All the benefits of Non-profit, plus:</span> <br><br>
+                            <span class="plan-list">Business marketing trainings</span> <br>
+                            <span class="plan-list">Social media posts</span> <br>
+                            <span class="plan-list">Discounts from FedEx</span> <br>
+                        </label>
+                        <label class="radio"><input type="radio" name="level" value="silver">&nbsp;&nbsp;Silver ($400)
+                            <br><br>
+
+                            <span class="plan-list">All the benefits of Bronze plus:</span> <br><br>
+                            <span class="plan-list">Direct access to the leaders of the chamber</span> <br>
+                            <span class="plan-list">Free access to networking and events</span> <br>
+                            <span class="plan-list">Referrals of business </span> <br>
+                        </label>
+                        <label class="radio"><input type="radio" name="level" value="gold">&nbsp;&nbsp;Gold
+                            ($1000)<br><br>
+                            <span class="plan-list">All the benefits of Silver plus</span> <br><br>
+                            <span class="plan-list">Free 1 year of advertising on our website</span> <br>
+                            <span class="plan-list">A chance to serve as one of the directors of the chamber</span> <br>
+                            <span class="plan-list">Free notary services</span> <br>
+                        </label>
+                    </fieldset>
+                    <input type="submit" value="Become a Member" class="submitBtn-join">
+                </form>
+            </div>
         </div>
-    </div>
     </main>
     <footer>
 
