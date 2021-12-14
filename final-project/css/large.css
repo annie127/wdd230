@@ -112,7 +112,8 @@
 #things-to-do > article {
 	display: grid;
 	grid-template-columns: 38% 62%;
-	grid-gap: 10px;
+	grid-gap: 20px;
+	padding: 20px 40px;
 
 }
 
@@ -126,12 +127,29 @@
 
 }
 
-.todo-description{
-	text-align: left;
+#abt-panglao {
+    padding: 1rem 5rem;
+
 }
 
 
+
 /*  ------------------ Directory page ----------------- */
+
+.business-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+}
+
+section > .business-info {
+    padding: 10px 15px;
+    margin: 20px 20px;
+
+}
+
+
+/*  ----------------- Contact page ----------------- */
 
 #button {
     display: block;
@@ -158,11 +176,6 @@ main iframe {
 	padding: 30px;
 }
 
-/*  ----------------- Contact page ----------------- */
-
-#contact-page{
-    margin: 30px;
-}
 
 #contact-us {
     display: grid;
@@ -179,7 +192,12 @@ main iframe {
     padding-left: 3rem;
 }
 
+h2.header-page {
+	font-size: 1.8rem;
+	margin: 4rem;
+}
 
+/*  ----------------- Contact page ----------------- */
 
 
 }

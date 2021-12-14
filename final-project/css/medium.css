@@ -133,7 +133,26 @@
 }
 
 
+/* ------------------------ Contact Page ------------------- */
 
+#contact-us {
+    display: block;
+    text-align: left;
+    background-color: whitesmoke;
+    margin: 2rem 3rem 3rem 2rem;
+    padding: 1rem 2rem;
+}
+
+
+
+/* --------------------------- Directory page ----------------------- */
+
+
+.business-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+}
 
 
 

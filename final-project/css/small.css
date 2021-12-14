@@ -15,7 +15,7 @@ h2.header-page {
      font-size: 1.3rem;
      color: #24305e;
      text-align: center;
-     margin: 2rem 0;
+     margin: 3rem 0;
 }
 
 img {
@@ -271,40 +271,45 @@ footer {
 /* -------------------------- Panglao Page ---------------------------- */
 
 
-#main-city img{
+#things-to-do img{
     max-width: 100%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    text-align: center;
+    transition: transform .2s;
 }
+
+#things-to-do img:hover {
+    transform: scale(1.2);
+  }
 
 #things-to-do, #abt-panglao{
     background-color: white;
-    margin: 20px;
     border-radius: 20px;
 }
 
-#things-to-do {
-    margin-bottom: 30px;
+#abt-panglao {
+    padding: 1rem 1rem;
+    margin-top: 2rem;
 }
 
 #things-to-do h3 {
     color: #24305e;
 }
 
+#abt-panglao h2, #things-to-do h2 {
+    padding-top: 0;
+    margin-top: 0;
+}
+
 #things-to-do > article {
 	border: 2px solid rgb(214, 209, 209);
 	display: block;
     margin-top: 20px;
-    padding: 20px;
-}
-
-#things-to-do img {
-	text-align: center;
-    padding-right: 0
-
+    padding: 20px 10px;
 }
 
 .todo-description{
-	text-align: center;
+	text-align: left;
 	padding-left: 10px;
 	margin-left: 0;
 }
@@ -332,7 +337,7 @@ footer {
 }
 
 
-#directory span {
+#button span {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -340,7 +345,7 @@ footer {
     background-color: #aaaa;
 }
 
-#directory .Active, #directory .Active:hover {
+#button .Active, #button .Active:hover {
     color: #fff;
     background-color: #f76c6c;
     border: 2px solid #f76c6c;
@@ -349,11 +354,11 @@ footer {
 section > .business-info {
     background-color: white;
     text-align: center;
-    padding: 10px 15px;
-    margin: 20px;
+    padding: 10px 10px;
+    margin: 30px 15px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
+    word-wrap: break-word;
 }
 
 .business-info h4 {
@@ -361,9 +366,7 @@ section > .business-info {
 }
 
 .business-cards {
-    display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  margin-bottom: 30px;
+    display: block;
 }
 
 #button {
@@ -372,10 +375,6 @@ section > .business-info {
 
 
 /*  ------------------------ Contact  page  --------------  */
-
-#contact-page{
-    margin: 20px;
-}
 
 #board img {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -394,6 +393,7 @@ section > .business-info {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     text-align: center;
+    padding: 1rem;
 }
 
 .director p:nth-of-type(1){
@@ -403,9 +403,10 @@ section > .business-info {
 
 #contact-us {
     display: block;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
     text-align: left;
+    background-color: whitesmoke;
+    margin: 2rem .5rem 1rem .5rem;
+    padding: 1rem;
 }
 
 #comment-form {
@@ -474,7 +475,7 @@ iframe{
 
 .form-body {
     margin: 0 auto;
-    max-width: 600px; 
+    max-width: 600px;
 }
 
 fieldset {
@@ -516,3 +517,11 @@ legend {
 
 
 
+
+/* ---------------- Thanks page --------------------- */
+
+.thanks {
+    text-align: center;
+    margin: 5rem;
+    color: #24305e;
+}
