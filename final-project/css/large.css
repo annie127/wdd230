@@ -1,207 +1,210 @@
 @media only screen and (min-width: 781px) {
 
-	.heading h1 {
-        font-size: 2rem;
-        margin-left: 20px;
-	}
 
-    .navigation {
-		display: flex;
-	}
-	.navigation li {
-        display: block; 
-        padding-right: 30px;
-    }
-    
-	.navigation a {
-		text-align: left;
-		font-size: 16px;
-	}
-	.navigation li:first-child {
-		display: none;
-	}
-
-
-	.hero-message {
-    margin-top: 3rem;
-}
-
-.hero-message h2 {
-    font-size: 2.5rem;
-}
-
-.hero-message span{
-    font-size: 1.8rem;
-}
-
-	#grid-home {
-		display: grid;
-		grid-template-columns: 78% 22%;
-	}
-
-	#col1 {
-		grid-column: 1/2;
-		grid-row: 1/2;
-		padding: 1rem;
+		.heading h1 {
+			font-size: 2rem;
+			margin-left: 20px;
+		}
+	
+		.navigation {
+			display: flex;
+		}
+		.navigation li {
+			display: block; 
+			padding-right: 30px;
+		}
+		
+		.navigation a {
+			text-align: left;
+			font-size: 16px;
+		}
+		.navigation li:first-child {
+			display: none;
+		}
+	
+	
+		.hero-message {
+		margin-top: 3rem;
 	}
 	
-	#weather {
-		grid-column: 2/3;
-		margin: 0 20px 0 10px;
-		text-align: center;
-		border-radius: 10px;
-		font-size: 1.1rem;
-		line-height: 30px;
+	.hero-message h2 {
+		font-size: 2.5rem;
 	}
 	
-	#purpose {
+	.hero-message span{
+		font-size: 1.8rem;
+	}
+	
+		#grid-home {
+			display: grid;
+			grid-template-columns: 78% 22%;
+		}
+	
+		#col1 {
+			grid-column: 1/2;
+			grid-row: 1/2;
+			padding: 1rem;
+		}
+		
+		#weather {
+			grid-column: 2/3;
+			margin: 0 20px 0 10px;
+			text-align: center;
+			border-radius: 10px;
+			font-size: 1.1rem;
+			line-height: 30px;
+			margin-top: 15px;
+		}
+		
+		#purpose {
+			border-radius: 20px;
+			text-align: center;
+			margin-bottom: 3rem;
+			margin-top: 15px;
+		}
+	
+		#current-weather, #forecast{
+			border: 2px solid #edf5e1;
+			border-radius: 10px;
+			margin: 10px 10px 20px 10px;
+		}
+	
+	
+		#forecast, #forecast h3 {
+			display: block;
+		}
+	
+		.days {
+			border-bottom: 2px solid rgb(192, 184, 184);
+		}
+	
+		#purpose h2, #events h2, #partners h2, #things-to-do h2, #abt-panglao h2 {
+			font-size: 1.5rem;
+		}
+	
+		#events > div {
+			display: grid;
+			grid-template-columns: 20% 30% 50%;
+			grid-gap: 10px;
+			padding: 10px 20px 20px 20px;
+			margin: 10px 20px;
+			box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+		}
+	
+		#events {
 		border-radius: 20px;
-		text-align: center;
-		margin-bottom: 3rem;
+	
+		}
+	
+		.date {
+			font-size: 1.3rem;
+	
+		}
+	
+		.event {
+			font-size: 1.2rem;
+		}
+	
+		footer {
+			font-size: 1rem;
+		}   
+	
+	
+	/* ------------ City Page ---------------- */
+	
+	#things-to-do > article {
+		display: grid;
+		grid-template-columns: 38% 62%;
+		grid-gap: 20px;
+		padding: 20px 40px;
+	
 	}
-
-	#current-weather, #forecast{
-		border: 2px solid #f76c6c;
-		border-radius: 10px;
-		margin: 10px 10px 20px 10px;
+	
+	#things-to-do .todo-description {
+		grid-column: 2/3;
 	}
-
-
-	#forecast, #forecast h3 {
+	
+	#things-to-do img {
+		grid-column: 1/2;
+		grid-row: span 2;
+	
+	}
+	
+	#abt-panglao {
+		padding: 1rem 5rem;
+	
+	}
+	
+	
+	
+	/*  ------------------ Directory page ----------------- */
+	
+	.business-cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin-bottom: 30px;
+	}
+	
+	section > .business-info {
+		padding: 10px 15px;
+		margin: 20px 20px;
+	
+	}
+	
+	#directory-heading {
+		font-size: 1.5rem;
+	
+	}
+	
+	
+	
+	/*  ----------------- Contact page ----------------- */
+	
+	#button {
 		display: block;
 	}
-
-	.days {
-		border-bottom: 2px solid rgb(192, 184, 184);
-	}
-
-	#purpose h2, #events h2, #partners h2, #things-to-do h2, #abt-panglao h2 {
-		font-size: 1.5rem;
-	}
-
-	#events > div {
+	
+	#board {
 		display: grid;
-		grid-template-columns: 20% 30% 50%;
-		grid-gap: 10px;
-		padding: 10px 20px 20px 20px;
-		margin: 10px 20px;
-		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 20px;
+		padding: 0 30px;
+		margin: 40px;
 	}
-
-	#events {
-	border-radius: 20px;
-
+	
+	h2.contact {
+		font-size: 25px;
 	}
-
-	.date {
-		font-size: 1.3rem;
-
+	
+	main iframe {
+		margin: 40px;
+		padding: 30px;
 	}
-
-	.event {
+	
+	
+	#contact-us {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+		text-align: left;
+	}
+	
+	#comment-form {
+		padding: .5rem 1rem;
+	}
+	
+	#contact-info h3, #contact-info p{
+		padding-left: 3rem;
+	}
+	
+	h2.header-page {
+		font-size: 1.8rem;
+		margin: 4rem;
+	}
+	
+	.director h3 {
 		font-size: 1.2rem;
 	}
-
-	footer {
-		font-size: 1rem;
-	}   
-
-
-/* ------------ City Page ---------------- */
-
-#things-to-do > article {
-	display: grid;
-	grid-template-columns: 38% 62%;
-	grid-gap: 20px;
-	padding: 20px 40px;
-
-}
-
-#things-to-do .todo-description {
-	grid-column: 2/3;
-}
-
-#things-to-do img {
-	grid-column: 1/2;
-	grid-row: span 2;
-
-}
-
-#abt-panglao {
-    padding: 1rem 5rem;
-
-}
-
-
-
-/*  ------------------ Directory page ----------------- */
-
-.business-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 30px;
-}
-
-section > .business-info {
-    padding: 10px 15px;
-    margin: 20px 20px;
-
-}
-
-#directory-heading {
-    font-size: 1.5rem;
-
-}
-
-
-
-/*  ----------------- Contact page ----------------- */
-
-#button {
-    display: block;
-}
-
-#board {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 20px;
-	padding: 0 30px;
-	margin: 40px;
-}
-
-h2.contact {
-	font-size: 25px;
-}
-
-main iframe {
-	margin: 40px;
-	padding: 30px;
-}
-
-
-#contact-us {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    text-align: left;
-}
-
-#comment-form {
-    padding: .5rem 1rem;
-}
-
-#contact-info h3, #contact-info p{
-    padding-left: 3rem;
-}
-
-h2.header-page {
-	font-size: 1.8rem;
-	margin: 4rem;
-}
-
-.director h3 {
-    font-size: 1.2rem;
-}
-
-
-}
+	
+	
+	}

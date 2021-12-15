@@ -1,38 +1,5 @@
 @media only screen and (min-width: 541px) and (max-width: 780px) {
 
-	.heading h1 {
-        font-size: 1.5rem;
-        margin-left: 20px;
-	}
-
- .navigation {
-        display: flex;
-        margin-left: 0;
-	}
-
-	.navigation li {
-		display: block; 
-        flex: 1 1 auto;
-        padding-left: 0;
-        padding-right: 15px;
-		letter-spacing: 0;
-		font-size: 1rem;
-	}
-	.navigation a {
-		text-align: left;
-		font-size: 15px;
-
-	}
-
-	#social-top {
-		padding-right: 2%;
-		font-size: 15px;
-	}
-
-	.navigation li:first-child {
-		display: none;
-	}
-
 	.hero-message {
 		margin-top: 2rem;
 	}
