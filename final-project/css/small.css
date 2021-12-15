@@ -90,20 +90,20 @@ header {
 
 
   nav ul li.active a{
-    background-color: #8ee4Af;
+    background-color: #b0f2c8;
 
   }
 
   .navigation a:link {
-      color: #05386b;
+      color: white;
   }
 
   .navigation a:visited{
-      color:#FDFEFF;
+      color:black;
   }
 
   .navigation a:hover {
-      background-color: #8ee4Af;
+      background-color:#fce181;
   }
 
   .navigation a:active {
