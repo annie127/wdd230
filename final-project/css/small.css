@@ -24,8 +24,8 @@ img {
 
 .nav-social, section #contact, footer {
   font-family: 'Open Sans', sans-serif;
-  background-color: #379683;
-  color:#05386b;
+  background-color: #026670;
+  color: white;
 }
 
  #purpose, #events, partners {
@@ -34,7 +34,7 @@ img {
 
 header {
     font-family: 'Roboto', sans-serif;
-    color: #05386b;
+    color: #026670;
 	display: flex;
 	align-items:center;
 	justify-content:center;
