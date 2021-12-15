@@ -263,14 +263,25 @@ footer {
     font-size: 1.1rem;
 }
 
-#partners #ads {
+#ads {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    
-    
-
+    grid-gap: 10px;
 }
+
+#partners {
+    margin: 1rem 1.5rem 2rem;
+}
+
+#ads > p {
+    margin-bottom: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+
+
 
 /* -------------------------- Panglao Page ---------------------------- */
 
