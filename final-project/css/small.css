@@ -38,16 +38,21 @@ img {
 
 header {
     font-family: 'Roboto', sans-serif;
-    color: #054a50;
+    color: #edf5e1;
 	display: flex;
 	align-items:center;
 	justify-content:center;
 
 }
 
+#logo {
+    max-width: 80%;
+}
+
 .heading h1 {
     font-size: 1rem;
     padding: 0 20px 0 0;
+    color: #054a50;
 }
 
 .nav-social{
@@ -91,8 +96,6 @@ header {
   text-decoration: none;
 }
 
-
-
   nav ul li.active a{
     background-color: black;
 
@@ -107,7 +110,7 @@ header {
   }
 
   .navigation a:hover {
-      color:#fce181;
+      color:#f8554e;
   }
 
   .navigation a:active {
@@ -211,7 +214,7 @@ footer {
 #temp {
     font-size: 2rem;
     line-height: 20px;
-    color: #054a50;
+    color: #f8554e;
 }
 
 #forecast {
