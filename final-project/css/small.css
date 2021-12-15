@@ -90,7 +90,7 @@ header {
 
 
   nav ul li.active a{
-    background-color: #b0f2c8;
+    background-color: black;
 
   }
 
@@ -99,11 +99,11 @@ header {
   }
 
   .navigation a:visited{
-      color:black;
+      color: #edeae5;
   }
 
   .navigation a:hover {
-      background-color:#fce181;
+      color:#fce181;
   }
 
   .navigation a:active {
