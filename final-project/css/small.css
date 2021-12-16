@@ -74,7 +74,7 @@ nav {
     }
 
 nav ul li.active a{
-    background-color: whitesmoke;
+    background-color: #f8e8ab;
 }
 
 .navigation a:link {
@@ -107,7 +107,7 @@ nav ul li.active a{
 }
 
 .text-logo span {
-    color:  #fce181;
+    color:  white;
 
 }   
 
