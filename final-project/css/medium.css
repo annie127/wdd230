@@ -1,6 +1,9 @@
 @media only screen and (min-width: 541px) and (max-width: 815px) {
 
-	
+	.text-logo {
+		margin-left: 1.8rem;
+		color: #e9423c;
+	}
 
 
 

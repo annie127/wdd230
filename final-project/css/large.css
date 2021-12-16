@@ -18,6 +18,11 @@
 			display: none;
 		}
 
+		.text-logo {
+			margin-left: 1rem;
+			color: #e9423c;
+		}
+
 		.hero-message {
 		margin-top: 3rem;
 	}

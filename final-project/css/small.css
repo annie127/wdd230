@@ -47,8 +47,8 @@ header {
 }
 
 nav {
-   margin: 0 auto;
-}
+    margin: 0 auto;
+ }
 
 .navigation {
     list-style: none;
@@ -103,9 +103,8 @@ nav ul li.active a{
 }
 
 .text-logo {
-    margin-left: 1rem;
+    margin-left: 1.6rem;
     color: #e9423c;
-    
 }
 
 .text-logo span {
@@ -460,7 +459,7 @@ label.contact, label.info, label.business, label.description, label.radio{
 display: block;
 padding-top: 1rem;
 margin-bottom: 1rem;
-color:#054a50;
+color:#e9423c;
 }
 
 label.contact input, label.business input, label.description select {
@@ -481,7 +480,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .submitBtn-contact{
-background-color: #054a50;
+background-color: #e9423c;
 }
 
 textarea {
