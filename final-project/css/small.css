@@ -99,7 +99,7 @@ nav ul li.active a{
 }
 
 .ham-menu  {
-    max-width: 80%;
+    max-width: 50%;
 }
 
 .text-logo {
@@ -125,6 +125,11 @@ nav ul li.active a{
 #social-top p {
     margin: 0 auto;
 }
+
+#social-top a {
+    text-align: center;
+}
+
 
 footer a:link {
     color: white;

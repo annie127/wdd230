@@ -1,5 +1,5 @@
 
-var apiUrl = 'https://api.openweathermap.org/data/2.5/onecall?lat=9.5825&lon=123.7503&exclude=minutely,hourly&units=metric&appid=3a67fda6cacce3953a8654a8c414649c';
+var apiUrl = 'https://api.openweathermap.org/data/2.5/onecall?lat=9.5825&lon=123.7503&exclude=minutely,hourly&units=metric&appid=b6c1c51b1d5777e0fb30bce42d0a87d6';
 
 fetch(apiUrl)
   .then((response) => response.json())
