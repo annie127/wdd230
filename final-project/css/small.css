@@ -13,7 +13,7 @@ body {
 
 h2.header-page {
     font-size: 1.3rem;
-    color: #054a50;
+    color: #e9423c;
     text-align: center;
     margin: 3rem 0;
 }
@@ -33,7 +33,7 @@ img {
 }
 
 #purpose h2, #events h2,  #partners h2 {
-color: #054a50;
+color: #e9423c;
 }
 
 header {
@@ -412,7 +412,7 @@ display: none;
 
 #directory-heading {
 font-size: 1.3rem;
-color: #054a50;
+color: #e9423c;
 text-align: center;
 margin-top: 3rem;
 }
