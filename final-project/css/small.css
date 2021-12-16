@@ -74,8 +74,7 @@ nav {
     }
 
 nav ul li.active a{
-    background-color: #f8e9b1;
-
+    background-color: whitesmoke;
 }
 
 .navigation a:link {
@@ -87,11 +86,11 @@ nav ul li.active a{
 }
 
 .navigation a:hover {
-    color:#fce181;
+    color:#e9423c;
 }
 
 .navigation a:active {
-    color: #e9423c;
+    color: #fce181;
 }
 
 .responsive li {
@@ -108,7 +107,7 @@ nav ul li.active a{
 }
 
 .text-logo span {
-    color:  #05353a;
+    color:  #fce181;
 
 }   
 
@@ -459,7 +458,7 @@ label.contact, label.info, label.business, label.description, label.radio{
 display: block;
 padding-top: 1rem;
 margin-bottom: 1rem;
-color:#e9423c;
+color:#054a50;
 }
 
 label.contact input, label.business input, label.description select {
@@ -480,7 +479,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .submitBtn-contact{
-background-color: #e9423c;
+background-color: #054a50;
 }
 
 textarea {
