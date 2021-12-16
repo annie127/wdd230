@@ -13,7 +13,7 @@ body {
 
 h2.header-page {
     font-size: 1.3rem;
-    color: #e9423c;
+    color: #054a50;
     text-align: center;
     margin: 3rem 0;
 }
@@ -33,7 +33,7 @@ img {
 }
 
 #purpose h2, #events h2,  #partners h2 {
-color: #e9423c;
+color: #054a50;
 }
 
 header {
@@ -74,7 +74,7 @@ nav {
     }
 
 nav ul li.active a{
-    background-color: #f8e8ab;
+    background-color: #edf5e1;
 }
 
 .navigation a:link {
@@ -103,11 +103,11 @@ nav ul li.active a{
 
 .text-logo {
     margin-left: 1.6rem;
-    color: #e9423c;
+    color: #fce181;
 }
 
 .text-logo span {
-    color:  white;
+    color: #021f22;
 
 }   
 
@@ -412,7 +412,7 @@ display: none;
 
 #directory-heading {
 font-size: 1.3rem;
-color: #e9423c;
+color: #054a50;
 text-align: center;
 margin-top: 3rem;
 }
